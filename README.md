@@ -2,7 +2,7 @@
 Industrial maintenance AI agent for ticket analysis, root-cause investigation, and intelligent monitoring support.
 
 # Agents-Maintenance-AI/
-│
+
 ├── app/
 │   ├── main.py
 │   ├── rag_pipeline.py
