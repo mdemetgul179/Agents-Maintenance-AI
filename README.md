@@ -18,3 +18,9 @@ Industrial maintenance AI agent for ticket analysis, root-cause investigation, a
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+ # Features/
+- Semantic maintenance ticket search
+- AI-based root cause analysis
+- Industrial monitoring support
+- Retrieval-Augmented Generation (RAG)
+- Intelligent maintenance recommendations
