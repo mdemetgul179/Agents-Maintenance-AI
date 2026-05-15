@@ -1,0 +1,762 @@
+ticket_id,machine,department,dominant_signal_score,maintenance_team,issue,priority,risk_score,dominant_signal,vibration_zscore,pressure_zscore,rotate_zscore,root_cause,solution,status
+1,model3_1,comp4,5,Automation,Emergency automation system instability identified on aging equipment,Critical,4.8,rotation,0.24,0.43,3.33,PLC communication instability,Verify rotational sensor consistency,Open
+2,model3_1,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.31,vibration,0.9,0.65,0.22,Mechanical imbalance,Check rotational stability,Open
+3,model3_1,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,2.43,rotation,0.95,0.5,1.54,Hydraulic valve degradation,Check rotational synchronization,Open
+4,model3_1,comp4,2,Automation,Critical PLC instability trend identified on aging equipment,High,3.44,pressure,0.72,1.08,1.87,PLC communication instability,Check valve stability,Open
+5,model3_1,comp4,5,Automation,Severe PLC communication failure observed on aging equipment,Critical,6.03,vibration,3.46,1.2,0.15,Electrical synchronization issue,Inspect spindle bearing and lubrication system,Open
+6,model3_1,comp2,1,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.44,vibration,0.87,0.99,0.08,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+7,model3_1,comp4,2,Automation,Automation system anomaly detected,Medium,2.41,pressure,0.01,1.22,0.67,PLC communication instability,Verify hydraulic pump condition,Open
+8,model4_2,comp1,2,Mechanical,High spindle vibration level identified,High,2.94,vibration,1.05,1.85,0.78,Lubrication degradation,Verify shaft balancing and alignment,Open
+9,model4_2,comp2,2,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,2.76,pressure,0.15,1.14,1.54,Hydraulic valve degradation,Inspect hydraulic pressure lines,Open
+10,model4_2,comp2,2,Hydraulic,High hydraulic instability detected,High,2.91,vibration,1.26,0.83,1.71,Pressure leakage,Verify shaft balancing and alignment,Open
+11,model4_2,comp2,2,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,2.95,vibration,1.96,0.14,1.4,Pressure leakage,Check rotational stability,Open
+12,model3_3,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.91,vibration,1.13,0.09,0.31,Hydraulic valve degradation,Check rotational stability,Open
+13,model3_3,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.89,vibration,1.1,0.49,0.35,Bearing wear,Inspect spindle bearing and lubrication system,Open
+14,model3_3,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.91,vibration,0.55,0.0,0.74,Hydraulic valve degradation,Check rotational stability,Open
+15,model3_3,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.73,pressure,0.23,1.15,0.03,Hydraulic valve degradation,Check valve stability,Open
+16,model3_3,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.82,pressure,0.2,1.56,0.69,Pressure leakage,Verify hydraulic pump condition,Open
+17,model3_4,comp2,3,Hydraulic,Emergency hydraulic instability identified,Critical,4.35,rotation,1.48,0.35,2.27,Hydraulic flow instability,Check rotational synchronization,Open
+18,model3_4,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.71,vibration,0.35,0.9,0.4,Lubrication degradation,Check rotational stability,Open
+19,model3_4,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.89,vibration,0.51,0.49,0.7,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+20,model3_4,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.72,pressure,0.62,1.57,0.88,Hydraulic flow instability,Verify hydraulic pump condition,Open
+21,model3_4,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.72,vibration,0.1,0.94,0.47,Bearing wear,Verify shaft balancing and alignment,Open
+22,model3_4,comp2,3,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,3.26,pressure,0.7,2.27,0.25,Hydraulic valve degradation,Inspect hydraulic pressure lines,Open
+23,model3_5,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.67,vibration,0.15,0.48,0.26,Hydraulic valve degradation,Check rotational stability,Open
+24,model3_5,comp1,2,Mechanical,Severe spindle instability detected,High,2.75,vibration,1.67,0.79,1.88,Bearing wear,Verify shaft balancing and alignment,Open
+25,model3_5,comp1,4,Mechanical,High spindle vibration level identified,High,3.81,pressure,0.79,2.43,0.96,Lubrication degradation,Inspect hydraulic pressure lines,Open
+26,model3_5,comp2,3,Hydraulic,Critical hydraulic pressure instability detected,Critical,4.11,pressure,1.08,2.13,0.79,Pressure leakage,Inspect hydraulic pressure lines,Open
+27,model3_5,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.89,vibration,0.22,0.8,0.43,Lubrication degradation,Verify shaft balancing and alignment,Open
+28,model3_5,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.9,vibration,1.12,0.23,0.61,Hydraulic valve degradation,Check rotational stability,Open
+29,model3_5,comp1,3,Mechanical,Critical spindle vibration anomaly detected,Critical,5.81,pressure,1.12,2.08,1.64,Mechanical imbalance,Inspect hydraulic pressure lines,Open
+30,model3_7,comp2,1,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.18,vibration,0.6,0.1,0.41,Pressure leakage,Check rotational stability,Open
+31,model3_7,comp4,2,Automation,Automation system anomaly detected,Medium,2.37,pressure,0.28,1.95,0.76,PLC communication instability,Inspect hydraulic pressure lines,Open
+32,model3_7,comp1,2,Mechanical,High-risk spindle oscillation beyond normal range on aging equipment,Critical,4.96,vibration,1.23,1.43,1.03,Bearing wear,Inspect spindle bearing and lubrication system,Open
+33,model3_7,comp1,1,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.36,vibration,0.69,0.38,0.78,Lubrication degradation,Check rotational stability,Open
+34,model3_7,comp4,2,Automation,PLC communication instability observed,Medium,2.44,pressure,0.61,1.42,0.43,Electrical synchronization issue,Check valve stability,Open
+35,model3_7,comp2,1,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.19,vibration,0.22,0.67,0.98,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+36,model3_7,comp2,2,Hydraulic,High hydraulic instability detected on aging equipment,High,3.37,vibration,1.94,1.16,0.73,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+37,model3_7,comp4,1,Automation,PLC communication instability observed,Medium,1.36,vibration,0.6,0.37,0.7,Control signal degradation,Check rotational stability,Open
+38,model3_7,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,2.3,pressure,0.84,1.36,0.31,Pressure leakage,Verify hydraulic pump condition,Open
+39,model3_7,comp1,3,Mechanical,Severe spindle instability detected on aging equipment,High,3.76,rotation,0.28,0.09,2.04,Lubrication degradation,Inspect rotational control subsystem,Open
+40,model3_8,comp2,2,Hydraulic,Emergency hydraulic instability identified on aging equipment,Critical,4.76,vibration,1.26,1.33,1.07,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+41,model3_8,comp4,1,Automation,Automation system anomaly detected,Medium,1.17,vibration,0.17,0.29,0.91,Electrical synchronization issue,Check rotational stability,Open
+42,model3_8,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.42,rotation,0.5,0.62,1.11,Hydraulic flow instability,Inspect rotational control subsystem,Open
+43,model3_8,comp4,2,Automation,Industrial control synchronization instability observed on aging equipment,High,3.37,pressure,0.68,1.62,1.19,Control signal degradation,Check valve stability,Open
+44,model3_8,comp4,2,Automation,Automation system anomaly detected,Medium,2.41,vibration,1.39,0.8,0.99,PLC communication instability,Verify shaft balancing and alignment,Open
+45,model4_9,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.88,vibration,0.0,0.41,0.6,Lubrication degradation,Verify shaft balancing and alignment,Open
+46,model4_9,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.81,pressure,0.78,1.45,0.99,Hydraulic valve degradation,Verify hydraulic pump condition,Open
+47,model4_9,comp1,1,Mechanical,Slight rotational instability detected,Low,0.81,vibration,0.25,0.99,0.64,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+48,model4_9,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.89,vibration,0.59,0.24,0.09,Hydraulic valve degradation,Check rotational stability,Open
+49,model4_9,comp2,3,Hydraulic,Critical hydraulic pressure instability detected,Critical,5.24,vibration,2.22,0.43,2.31,Pressure leakage,Verify shaft balancing and alignment,Open
+50,model4_9,comp1,2,Mechanical,High spindle vibration level identified,High,2.84,pressure,0.57,1.09,1.74,Bearing wear,Inspect hydraulic pressure lines,Open
+51,model4_9,comp2,4,Hydraulic,Severe hydraulic fluctuation identified,High,3.76,pressure,0.88,2.6,0.13,Pressure leakage,Verify hydraulic pump condition,Open
+52,model4_9,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.93,vibration,0.72,0.69,0.98,Mechanical imbalance,Check rotational stability,Open
+53,model4_9,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.77,vibration,0.6,0.75,0.59,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+54,model3_10,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.69,vibration,0.63,0.49,0.84,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+55,model3_10,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.93,vibration,1.89,0.1,0.82,Hydraulic flow instability,Check rotational stability,Open
+56,model3_10,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.67,rotation,0.69,0.04,1.03,Hydraulic valve degradation,Check rotational synchronization,Open
+57,model3_10,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.74,vibration,1.28,0.01,0.1,Lubrication degradation,Check rotational stability,Open
+58,model3_10,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.69,vibration,0.72,0.77,0.32,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+59,model2_11,comp2,2,Hydraulic,Emergency hydraulic instability identified,Critical,4.47,vibration,1.2,1.51,1.6,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+60,model2_11,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.94,rotation,0.91,0.99,1.01,Cooling system degradation,Verify rotational sensor consistency,Open
+61,model2_11,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.86,pressure,0.5,1.71,0.97,Pressure leakage,Verify hydraulic pump condition,Open
+62,model2_11,comp3,3,Thermal,Elevated thermal instability detected,High,3.16,pressure,0.28,2.0,0.11,Cooling system degradation,Inspect hydraulic pressure lines,Open
+63,model2_11,comp3,2,Thermal,Elevated thermal instability detected,High,2.82,pressure,0.41,1.53,1.16,Thermal overload,Verify hydraulic pump condition,Open
+64,model2_11,comp3,2,Thermal,Emergency thermal instability detected,Critical,4.38,vibration,1.63,1.81,1.85,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+65,model3_12,comp1,2,Mechanical,Severe mechanical instability observed,Critical,4.35,vibration,1.15,1.41,1.02,Lubrication degradation,Verify shaft balancing and alignment,Open
+66,model3_12,comp2,2,Hydraulic,Severe hydraulic fluctuation identified,High,2.9,pressure,0.09,1.17,1.11,Hydraulic valve degradation,Inspect hydraulic pressure lines,Open
+67,model3_12,comp2,3,Hydraulic,Severe hydraulic fluctuation identified,High,3.25,rotation,0.4,0.46,2.18,Pressure leakage,Check rotational synchronization,Open
+68,model3_12,comp1,4,Mechanical,Severe mechanical instability observed,Critical,4.82,vibration,2.76,0.82,1.52,Bearing wear,Inspect spindle bearing and lubrication system,Open
+69,model3_12,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.68,vibration,0.36,0.12,0.6,Mechanical imbalance,Check rotational stability,Open
+70,model3_12,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.75,vibration,0.62,0.76,0.91,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+71,model1_13,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.83,vibration,0.27,0.39,0.45,Cooling system degradation,Verify shaft balancing and alignment,Open
+72,model1_13,comp4,2,Automation,Industrial control synchronization instability observed,High,2.83,pressure,0.86,1.83,1.65,Control signal degradation,Check valve stability,Open
+73,model1_13,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.82,pressure,0.55,1.27,0.9,Cooling fan malfunction,Verify hydraulic pump condition,Open
+74,model1_13,comp4,2,Automation,PLC communication instability observed,Medium,1.92,vibration,1.66,0.99,0.13,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+75,model1_13,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.85,vibration,0.97,0.34,0.32,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+76,model1_13,comp2,3,Hydraulic,Severe hydraulic operational anomaly observed,Critical,4.31,pressure,1.27,2.23,0.44,Hydraulic valve degradation,Inspect hydraulic pressure lines,Open
+77,model1_13,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.74,pressure,0.12,1.15,0.2,Lubrication degradation,Verify hydraulic pump condition,Open
+78,model1_13,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.81,vibration,1.79,0.92,0.78,Cooling system degradation,Check rotational stability,Open
+79,model1_13,comp4,2,Automation,PLC communication instability observed,Medium,1.84,rotation,0.51,0.06,1.85,PLC communication instability,Check rotational synchronization,Open
+80,model1_13,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.74,vibration,0.24,0.39,0.6,Bearing wear,Verify shaft balancing and alignment,Open
+81,model1_13,comp4,2,Automation,PLC communication instability observed,Medium,1.66,vibration,1.33,0.11,0.51,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+82,model1_13,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.79,vibration,0.08,0.27,0.25,Bearing wear,Inspect spindle bearing and lubrication system,Open
+83,model1_13,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.65,vibration,0.86,0.13,1.0,Hydraulic flow instability,Check rotational stability,Open
+84,model3_14,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.89,vibration,0.28,0.61,0.17,Hydraulic valve degradation,Check rotational stability,Open
+85,model3_14,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.79,vibration,1.57,0.36,1.0,Mechanical imbalance,Verify shaft balancing and alignment,Open
+86,model3_14,comp1,3,Mechanical,Emergency-level spindle instability identified,Critical,4.09,vibration,2.62,1.38,0.49,Mechanical imbalance,Verify shaft balancing and alignment,Open
+87,model3_14,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.83,pressure,0.09,1.15,0.19,Hydraulic flow instability,Check valve stability,Open
+88,model3_15,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.93,rotation,0.98,0.99,1.4,Hydraulic flow instability,Check rotational synchronization,Open
+89,model3_15,comp4,2,Automation,Automation system anomaly detected,Medium,1.85,rotation,0.66,0.02,1.18,Control signal degradation,Check rotational synchronization,Open
+90,model3_15,comp1,3,Mechanical,Severe spindle instability detected,High,3.14,pressure,0.64,2.41,0.27,Mechanical imbalance,Check valve stability,Open
+91,model3_15,comp1,1,Mechanical,Slight rotational instability detected,Low,0.77,vibration,0.59,0.49,0.23,Mechanical imbalance,Verify shaft balancing and alignment,Open
+92,model3_15,comp2,3,Hydraulic,Critical hydraulic pressure instability detected,Critical,4.22,vibration,2.51,0.64,1.1,Pressure leakage,Check rotational stability,Open
+93,model3_15,comp4,1,Automation,Minor automation instability detected,Low,0.84,vibration,0.09,0.49,0.66,PLC communication instability,Check rotational stability,Open
+94,model3_15,comp4,1,Automation,Minor automation instability detected,Low,0.91,vibration,0.44,0.97,0.04,Control signal degradation,Inspect spindle bearing and lubrication system,Open
+95,model1_16,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.92,vibration,1.41,0.1,0.49,Lubrication degradation,Verify shaft balancing and alignment,Open
+96,model1_16,comp3,2,Thermal,Elevated thermal instability detected,High,2.94,vibration,1.45,0.64,1.34,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+97,model1_16,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.79,pressure,0.09,1.09,0.77,Lubrication degradation,Verify hydraulic pump condition,Open
+98,model1_16,comp3,2,Thermal,Elevated thermal instability detected,High,2.9,vibration,1.34,1.37,0.24,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+99,model1_16,comp1,1,Mechanical,Slight rotational instability detected,Low,0.86,vibration,0.58,0.54,0.11,Lubrication degradation,Check rotational stability,Open
+100,model1_16,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.65,vibration,1.06,0.82,0.35,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+101,model1_16,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.75,vibration,1.27,0.73,0.67,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+102,model1_16,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.69,vibration,0.46,0.03,0.27,Lubrication degradation,Check rotational stability,Open
+103,model1_16,comp2,2,Hydraulic,Severe hydraulic operational anomaly observed,Critical,4.31,vibration,1.6,1.61,1.44,Pressure leakage,Check rotational stability,Open
+104,model1_16,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.83,vibration,1.57,0.24,0.8,Thermal overload,Verify shaft balancing and alignment,Open
+105,model1_16,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.86,vibration,0.72,0.94,0.93,Cooling system degradation,Check rotational stability,Open
+106,model1_16,comp3,2,Thermal,High thermal stress identified,High,2.76,vibration,1.98,0.46,1.43,Cooling system degradation,Inspect spindle bearing and lubrication system,Open
+107,model1_16,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.68,vibration,0.13,0.06,0.39,Pressure leakage,Check rotational stability,Open
+108,model1_17,comp4,1,Automation,Minor automation instability detected,Low,0.91,vibration,0.17,0.18,0.09,Electrical synchronization issue,Inspect spindle bearing and lubrication system,Open
+109,model1_17,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.86,vibration,0.59,0.1,0.1,Thermal overload,Check rotational stability,Open
+110,model1_17,comp2,2,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,2.77,vibration,1.29,0.18,1.65,Hydraulic flow instability,Check rotational stability,Open
+111,model1_17,comp3,3,Thermal,Elevated thermal instability detected,High,3.32,pressure,0.19,2.38,0.82,Cooling fan malfunction,Inspect hydraulic pressure lines,Open
+112,model1_17,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.71,vibration,0.25,0.36,0.61,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+113,model1_17,comp4,1,Automation,Minor automation instability detected,Low,0.88,vibration,0.12,0.4,0.18,Control signal degradation,Verify shaft balancing and alignment,Open
+114,model1_17,comp1,2,Mechanical,High-risk spindle oscillation beyond normal range,Critical,4.53,vibration,1.6,1.66,1.25,Lubrication degradation,Verify shaft balancing and alignment,Open
+115,model1_17,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.82,vibration,0.75,0.49,0.19,Cooling system degradation,Inspect spindle bearing and lubrication system,Open
+116,model1_17,comp2,3,Hydraulic,High hydraulic instability detected,High,3.15,pressure,0.48,2.01,0.35,Hydraulic flow instability,Inspect hydraulic pressure lines,Open
+117,model1_17,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.8,rotation,0.44,0.39,1.58,Bearing wear,Inspect rotational control subsystem,Open
+118,model1_17,comp4,2,Automation,Automation system anomaly detected,Medium,1.94,rotation,0.63,0.11,1.16,Electrical synchronization issue,Check rotational synchronization,Open
+119,model1_17,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.87,vibration,1.75,0.39,0.14,Cooling system degradation,Inspect spindle bearing and lubrication system,Open
+120,model1_17,comp4,2,Automation,PLC communication instability observed,Medium,1.9,pressure,0.81,1.07,0.5,Electrical synchronization issue,Check valve stability,Open
+121,model1_17,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.65,rotation,0.19,0.16,1.35,Pressure leakage,Inspect rotational control subsystem,Open
+122,model1_17,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.65,vibration,0.68,0.35,0.79,Mechanical imbalance,Check rotational stability,Open
+123,model3_18,comp4,1,Automation,Minor automation instability detected,Low,0.66,vibration,0.92,0.51,0.5,Control signal degradation,Verify shaft balancing and alignment,Open
+124,model3_18,comp1,2,Mechanical,High spindle vibration level identified,High,2.74,vibration,1.19,1.63,0.48,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+125,model3_18,comp4,1,Automation,Minor automation instability detected,Low,0.83,vibration,0.13,0.43,0.3,Control signal degradation,Inspect spindle bearing and lubrication system,Open
+126,model3_18,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.73,rotation,0.39,0.27,1.14,Hydraulic valve degradation,Check rotational synchronization,Open
+127,model3_18,comp2,2,Hydraulic,High hydraulic instability detected,High,2.82,pressure,0.1,1.1,1.01,Hydraulic flow instability,Check valve stability,Open
+128,model3_18,comp4,2,Automation,Automation system anomaly detected,Medium,1.7,pressure,0.2,1.36,0.95,Electrical synchronization issue,Inspect hydraulic pressure lines,Open
+129,model3_18,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.78,vibration,1.88,0.63,0.24,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+130,model3_18,comp4,2,Automation,High-risk automation instability detected,High,2.8,vibration,1.62,1.59,0.63,PLC communication instability,Verify shaft balancing and alignment,Open
+131,model3_19,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.23,vibration,0.19,0.53,0.64,Lubrication degradation,Check rotational stability,Open
+132,model3_19,comp4,4,Automation,Severe PLC communication failure observed on aging equipment,Critical,6.4,vibration,2.79,0.68,2.05,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+133,model3_19,comp4,1,Automation,PLC communication instability observed,Medium,1.15,vibration,0.33,0.18,0.84,Control signal degradation,Verify shaft balancing and alignment,Open
+134,model3_19,comp4,3,Automation,Critical automation system instability detected on aging equipment,Critical,5.66,pressure,0.7,2.01,2.03,Electrical synchronization issue,Check valve stability,Open
+135,model3_19,comp4,1,Automation,Automation system anomaly detected,Medium,1.26,vibration,0.54,0.85,0.46,Electrical synchronization issue,Check rotational stability,Open
+136,model3_19,comp4,2,Automation,High-risk automation instability detected on aging equipment,High,3.34,vibration,1.31,1.56,0.05,PLC communication instability,Check rotational stability,Open
+137,model3_19,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,2.36,vibration,1.17,0.37,0.96,Mechanical imbalance,Verify shaft balancing and alignment,Open
+138,model2_20,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.31,vibration,1.33,0.02,0.29,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+139,model2_20,comp4,3,Automation,Critical PLC instability trend identified on aging equipment,High,3.64,rotation,0.13,0.04,2.05,PLC communication instability,Inspect rotational control subsystem,Open
+140,model2_20,comp3,1,Thermal,Motor temperature anomaly detected,Medium,1.34,vibration,0.82,0.04,0.63,Thermal overload,Inspect spindle bearing and lubrication system,Open
+141,model2_20,comp2,1,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.38,vibration,0.92,0.9,0.34,Hydraulic flow instability,Check rotational stability,Open
+142,model2_20,comp3,1,Thermal,Moderate thermal instability observed,Medium,1.37,vibration,0.21,0.15,0.44,Cooling fan malfunction,Check rotational stability,Open
+143,model2_20,comp4,1,Automation,PLC communication instability observed,Medium,1.26,vibration,0.45,0.66,0.18,PLC communication instability,Check rotational stability,Open
+144,model2_20,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.34,vibration,0.56,0.96,0.84,Lubrication degradation,Check rotational stability,Open
+145,model2_20,comp4,1,Automation,PLC communication instability observed,Medium,1.38,vibration,0.78,0.79,0.59,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+146,model2_20,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,2.43,rotation,0.75,0.63,1.5,Hydraulic flow instability,Verify rotational sensor consistency,Open
+147,model2_20,comp3,1,Thermal,Motor temperature anomaly detected,Medium,1.19,vibration,0.86,0.97,0.41,Cooling fan malfunction,Check rotational stability,Open
+148,model2_20,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,2.19,pressure,0.03,1.03,0.9,Pressure leakage,Verify hydraulic pump condition,Open
+149,model2_20,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.26,vibration,0.22,0.59,0.49,Bearing wear,Inspect spindle bearing and lubrication system,Open
+150,model2_20,comp4,1,Automation,PLC communication instability observed,Medium,1.44,vibration,0.59,0.15,0.26,Control signal degradation,Verify shaft balancing and alignment,Open
+151,model2_21,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.88,vibration,0.16,0.55,0.55,Thermal overload,Inspect spindle bearing and lubrication system,Open
+152,model2_21,comp4,2,Automation,Industrial control synchronization instability observed,High,2.84,vibration,1.22,0.98,1.46,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+153,model2_21,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.87,vibration,0.96,0.85,0.09,Bearing wear,Inspect spindle bearing and lubrication system,Open
+154,model2_21,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.8,vibration,1.34,0.85,0.53,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+155,model2_21,comp4,1,Automation,Minor automation instability detected,Low,0.73,vibration,0.15,0.36,0.52,Control signal degradation,Check rotational stability,Open
+156,model2_21,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.89,vibration,0.57,0.57,0.63,Cooling system degradation,Verify shaft balancing and alignment,Open
+157,model2_21,comp4,1,Automation,Minor automation instability detected,Low,0.85,vibration,0.83,0.64,0.09,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+158,model2_21,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.75,vibration,0.52,0.64,0.96,Pressure leakage,Check rotational stability,Open
+159,model2_21,comp4,4,Automation,Critical automation system instability detected,Critical,4.94,vibration,2.68,0.87,1.27,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+160,model2_21,comp2,3,Hydraulic,Critical hydraulic pressure instability detected,Critical,4.2,rotation,1.01,0.39,2.29,Hydraulic flow instability,Inspect rotational control subsystem,Open
+161,model2_21,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.74,vibration,0.77,0.83,0.67,Thermal overload,Inspect spindle bearing and lubrication system,Open
+162,model1_22,comp1,5,Mechanical,Severe mechanical instability observed,Critical,5.45,pressure,1.1,4.14,0.44,Mechanical imbalance,Verify hydraulic pump condition,Open
+163,model1_22,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.92,vibration,1.54,0.92,0.47,Cooling system degradation,Verify shaft balancing and alignment,Open
+164,model1_22,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.77,pressure,0.6,1.1,0.32,Pressure leakage,Verify hydraulic pump condition,Open
+165,model1_22,comp4,2,Automation,PLC communication instability observed,Medium,1.83,rotation,0.39,0.07,1.1,Electrical synchronization issue,Inspect rotational control subsystem,Open
+166,model1_22,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.68,rotation,0.43,0.5,1.77,Thermal overload,Verify rotational sensor consistency,Open
+167,model1_22,comp2,4,Hydraulic,Critical hydraulic pressure instability detected,Critical,5.6,pressure,0.18,2.86,2.21,Hydraulic valve degradation,Check valve stability,Open
+168,model1_22,comp1,2,Mechanical,High spindle vibration level identified,High,2.82,pressure,0.45,1.32,1.31,Bearing wear,Verify hydraulic pump condition,Open
+169,model1_22,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.74,vibration,0.25,0.88,0.29,Thermal overload,Verify shaft balancing and alignment,Open
+170,model1_22,comp4,3,Automation,Critical automation system instability detected,Critical,4.34,vibration,2.5,1.15,0.8,PLC communication instability,Verify shaft balancing and alignment,Open
+171,model1_22,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.87,vibration,0.45,0.26,0.23,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+172,model1_22,comp4,2,Automation,PLC communication instability observed,Medium,1.91,rotation,0.3,0.45,1.35,PLC communication instability,Check rotational synchronization,Open
+173,model1_22,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.67,rotation,0.05,0.2,1.5,Thermal overload,Inspect rotational control subsystem,Open
+174,model1_22,comp2,3,Hydraulic,High hydraulic instability detected,High,3.29,vibration,2.58,0.51,0.75,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+175,model1_22,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.88,vibration,0.26,0.76,0.94,Cooling system degradation,Verify shaft balancing and alignment,Open
+176,model1_22,comp4,2,Automation,PLC communication instability observed,Medium,1.68,rotation,0.53,0.74,1.1,Control signal degradation,Verify rotational sensor consistency,Open
+177,model1_23,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,2.18,vibration,1.5,0.2,0.02,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+178,model1_23,comp4,5,Automation,Severe PLC communication failure observed on aging equipment,Critical,5.97,pressure,1.44,3.25,0.37,Control signal degradation,Inspect hydraulic pressure lines,Open
+179,model1_23,comp4,2,Automation,PLC communication instability observed,Medium,2.43,pressure,0.07,1.77,0.61,PLC communication instability,Check valve stability,Open
+180,model1_23,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,2.45,vibration,1.29,0.29,0.65,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+181,model1_23,comp3,3,Thermal,Severe thermal operational anomaly observed on aging equipment,Critical,4.87,vibration,2.24,0.32,1.3,Cooling system degradation,Verify shaft balancing and alignment,Open
+182,model1_23,comp2,2,Hydraulic,Severe hydraulic fluctuation identified on aging equipment,High,3.29,pressure,0.14,1.42,1.42,Hydraulic valve degradation,Verify hydraulic pump condition,Open
+183,model1_23,comp3,2,Thermal,Moderate thermal instability observed,Medium,2.45,rotation,0.88,0.11,1.79,Cooling system degradation,Check rotational synchronization,Open
+184,model1_23,comp2,1,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.27,vibration,0.24,0.77,0.98,Pressure leakage,Check rotational stability,Open
+185,model1_23,comp3,2,Thermal,Moderate thermal instability observed,Medium,2.17,rotation,0.97,0.25,1.72,Cooling fan malfunction,Inspect rotational control subsystem,Open
+186,model1_23,comp4,2,Automation,High-risk automation instability detected on aging equipment,High,3.2,vibration,1.39,1.59,0.5,PLC communication instability,Verify shaft balancing and alignment,Open
+187,model1_23,comp3,2,Thermal,Moderate thermal instability observed,Medium,2.37,pressure,0.36,1.23,0.27,Thermal overload,Verify hydraulic pump condition,Open
+188,model1_23,comp4,1,Automation,Automation system anomaly detected,Medium,1.19,vibration,0.98,0.35,0.43,PLC communication instability,Verify shaft balancing and alignment,Open
+189,model1_24,comp1,2,Mechanical,Severe spindle instability detected on aging equipment,High,3.19,pressure,0.68,1.77,1.21,Bearing wear,Verify hydraulic pump condition,Open
+190,model1_24,comp1,2,Mechanical,Severe spindle instability detected on aging equipment,High,3.26,vibration,1.34,1.01,0.21,Bearing wear,Verify shaft balancing and alignment,Open
+191,model1_24,comp4,1,Automation,Automation system anomaly detected,Medium,1.27,vibration,0.2,0.8,0.04,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+192,model1_24,comp3,1,Thermal,Motor temperature anomaly detected,Medium,1.37,vibration,0.92,0.04,0.62,Thermal overload,Inspect spindle bearing and lubrication system,Open
+193,model1_24,comp3,1,Thermal,Motor temperature anomaly detected,Medium,1.43,vibration,0.9,0.62,0.26,Cooling fan malfunction,Check rotational stability,Open
+194,model1_24,comp4,3,Automation,Industrial control synchronization instability observed on aging equipment,High,3.67,pressure,0.06,2.25,0.35,Control signal degradation,Check valve stability,Open
+195,model1_24,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.23,vibration,0.18,0.02,0.41,Bearing wear,Inspect spindle bearing and lubrication system,Open
+196,model1_24,comp3,2,Thermal,Motor temperature anomaly detected,Medium,2.18,pressure,0.53,1.41,0.15,Cooling system degradation,Inspect hydraulic pressure lines,Open
+197,model1_24,comp4,1,Automation,PLC communication instability observed,Medium,1.21,vibration,0.09,0.49,0.17,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+198,model1_24,comp3,1,Thermal,Moderate thermal instability observed,Medium,1.37,vibration,0.75,0.53,0.39,Cooling system degradation,Inspect spindle bearing and lubrication system,Open
+199,model4_25,comp1,1,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.44,vibration,0.1,0.02,0.66,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+200,model4_25,comp4,1,Automation,PLC communication instability observed,Medium,1.39,vibration,0.71,0.2,0.9,Control signal degradation,Check rotational stability,Open
+201,model4_25,comp1,1,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.35,vibration,0.12,0.94,0.67,Mechanical imbalance,Verify shaft balancing and alignment,Open
+202,model4_25,comp2,3,Hydraulic,Emergency hydraulic instability identified on aging equipment,Critical,4.7,rotation,1.25,0.65,2.48,Pressure leakage,Inspect rotational control subsystem,Open
+203,model4_25,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.4,pressure,0.0,1.05,0.41,Hydraulic flow instability,Check valve stability,Open
+204,model4_25,comp4,2,Automation,Critical PLC instability trend identified on aging equipment,High,3.43,pressure,0.38,1.36,1.38,PLC communication instability,Check valve stability,Open
+205,model4_25,comp2,3,Hydraulic,Severe hydraulic fluctuation identified on aging equipment,High,3.82,vibration,2.03,0.05,0.45,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+206,model4_25,comp4,1,Automation,PLC communication instability observed,Medium,1.36,vibration,0.24,0.88,0.62,Control signal degradation,Inspect spindle bearing and lubrication system,Open
+207,model3_26,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.67,rotation,0.04,0.68,1.96,Bearing wear,Inspect rotational control subsystem,Open
+208,model3_26,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.69,vibration,0.3,0.35,0.09,Hydraulic flow instability,Check rotational stability,Open
+209,model3_26,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.95,vibration,0.66,0.78,0.56,Bearing wear,Verify shaft balancing and alignment,Open
+210,model3_26,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.77,pressure,0.3,1.81,0.87,Hydraulic flow instability,Inspect hydraulic pressure lines,Open
+211,model3_26,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.65,vibration,0.67,0.16,0.34,Lubrication degradation,Verify shaft balancing and alignment,Open
+212,model3_26,comp2,3,Hydraulic,High hydraulic instability detected,High,3.26,pressure,0.04,2.0,0.29,Hydraulic flow instability,Verify hydraulic pump condition,Open
+213,model3_27,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.75,rotation,0.36,0.75,1.13,Hydraulic valve degradation,Check rotational synchronization,Open
+214,model3_27,comp1,3,Mechanical,High-risk spindle oscillation beyond normal range,Critical,4.05,pressure,0.85,2.49,1.38,Bearing wear,Verify hydraulic pump condition,Open
+215,model3_27,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.88,pressure,0.75,1.11,0.09,Hydraulic valve degradation,Check valve stability,Open
+216,model4_28,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.86,vibration,0.89,0.54,0.7,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+217,model4_28,comp1,3,Mechanical,Critical spindle vibration anomaly detected,Critical,4.18,vibration,2.0,0.59,1.64,Bearing wear,Verify shaft balancing and alignment,Open
+218,model4_28,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.73,vibration,0.18,0.46,0.43,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+219,model4_28,comp1,3,Mechanical,Severe spindle instability detected,High,3.3,pressure,0.74,2.05,0.45,Lubrication degradation,Verify hydraulic pump condition,Open
+220,model4_28,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.82,rotation,0.01,0.28,1.45,Mechanical imbalance,Inspect rotational control subsystem,Open
+221,model4_29,comp1,1,Mechanical,Slight rotational instability detected,Low,0.87,vibration,0.57,0.13,0.45,Bearing wear,Verify shaft balancing and alignment,Open
+222,model4_29,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.77,vibration,0.04,0.31,0.53,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+223,model3_30,comp4,3,Automation,Critical automation system instability detected on aging equipment,Critical,4.86,rotation,1.13,0.33,2.13,PLC communication instability,Check rotational synchronization,Open
+224,model3_30,comp4,1,Automation,Automation system anomaly detected,Medium,1.18,vibration,0.74,0.68,0.81,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+225,model3_30,comp2,1,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.43,vibration,0.51,0.18,0.78,Hydraulic flow instability,Check rotational stability,Open
+226,model3_30,comp4,1,Automation,Automation system anomaly detected,Medium,1.29,vibration,0.86,0.44,0.94,PLC communication instability,Verify shaft balancing and alignment,Open
+227,model3_30,comp4,3,Automation,Critical PLC instability trend identified on aging equipment,High,3.68,rotation,0.69,0.29,2.13,PLC communication instability,Inspect rotational control subsystem,Open
+228,model1_31,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.89,vibration,0.73,0.71,0.41,Cooling system degradation,Verify shaft balancing and alignment,Open
+229,model1_31,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.92,rotation,0.92,0.53,1.31,Mechanical imbalance,Check rotational synchronization,Open
+230,model1_31,comp3,4,Thermal,Elevated thermal instability detected,High,3.85,pressure,0.78,2.88,0.58,Cooling system degradation,Verify hydraulic pump condition,Open
+231,model1_31,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.9,vibration,0.33,0.83,0.14,Cooling system degradation,Verify shaft balancing and alignment,Open
+232,model1_31,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.82,vibration,1.01,0.41,0.33,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+233,model1_31,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.7,vibration,0.06,0.87,0.41,Bearing wear,Check rotational stability,Open
+234,model1_31,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.81,rotation,0.08,0.82,1.82,Cooling system degradation,Inspect rotational control subsystem,Open
+235,model4_32,comp1,3,Mechanical,Severe spindle instability detected,High,3.11,rotation,0.02,0.22,2.24,Bearing wear,Inspect rotational control subsystem,Open
+236,model4_32,comp4,3,Automation,High-risk automation instability detected,High,3.14,pressure,0.44,2.37,0.18,PLC communication instability,Check valve stability,Open
+237,model4_32,comp1,3,Mechanical,Strong rotational imbalance observed,High,3.07,vibration,2.06,0.85,0.12,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+238,model4_32,comp4,1,Automation,Minor automation instability detected,Low,0.7,vibration,0.96,0.82,0.99,Control signal degradation,Verify shaft balancing and alignment,Open
+239,model4_32,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.87,rotation,0.68,0.91,1.19,Hydraulic flow instability,Inspect rotational control subsystem,Open
+240,model4_32,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.82,vibration,0.85,0.33,0.77,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+241,model4_32,comp4,2,Automation,Critical PLC instability trend identified,High,2.82,vibration,1.15,1.5,0.39,Electrical synchronization issue,Check rotational stability,Open
+242,model4_32,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.76,vibration,1.87,0.65,0.86,Bearing wear,Verify shaft balancing and alignment,Open
+243,model4_32,comp4,1,Automation,Minor automation instability detected,Low,0.69,vibration,0.93,0.13,0.91,PLC communication instability,Verify shaft balancing and alignment,Open
+244,model4_32,comp1,4,Mechanical,Severe mechanical instability observed,Critical,4.72,vibration,2.96,1.0,0.78,Bearing wear,Inspect spindle bearing and lubrication system,Open
+245,model3_33,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.74,vibration,0.85,0.49,0.21,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+246,model3_33,comp4,3,Automation,Severe PLC communication failure observed,Critical,5.91,vibration,2.2,1.32,1.04,PLC communication instability,Verify shaft balancing and alignment,Open
+247,model3_33,comp4,2,Automation,Automation system anomaly detected,Medium,1.79,vibration,1.61,0.17,0.16,Control signal degradation,Inspect spindle bearing and lubrication system,Open
+248,model3_33,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.92,pressure,0.16,1.93,0.34,Hydraulic valve degradation,Inspect hydraulic pressure lines,Open
+249,model3_33,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.81,vibration,0.26,0.4,0.86,Hydraulic flow instability,Check rotational stability,Open
+250,model3_33,comp4,2,Automation,High-risk automation instability detected,High,2.93,vibration,1.19,1.95,0.43,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+251,model3_33,comp4,1,Automation,Minor automation instability detected,Low,0.76,vibration,0.08,0.44,0.64,Control signal degradation,Verify shaft balancing and alignment,Open
+252,model3_33,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.78,vibration,0.37,0.55,0.39,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+253,model3_33,comp1,1,Mechanical,Slight rotational instability detected,Low,0.88,vibration,0.61,0.29,0.26,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+254,model4_34,comp1,1,Mechanical,Slight rotational instability detected,Low,0.67,vibration,0.91,0.41,0.84,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+255,model4_34,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.78,vibration,0.23,0.1,0.03,Hydraulic flow instability,Check rotational stability,Open
+256,model4_34,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.95,rotation,0.6,0.4,1.77,Mechanical imbalance,Verify rotational sensor consistency,Open
+257,model1_35,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,2.44,pressure,0.89,1.01,0.15,Mechanical imbalance,Inspect hydraulic pressure lines,Open
+258,model1_35,comp4,5,Automation,Emergency automation system instability identified on aging equipment,Critical,5.88,rotation,1.68,0.64,3.05,Control signal degradation,Check rotational synchronization,Open
+259,model1_35,comp3,1,Thermal,Moderate thermal instability observed,Medium,1.35,vibration,0.52,0.04,0.28,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+260,model1_35,comp4,2,Automation,Industrial control synchronization instability observed on aging equipment,High,3.34,pressure,0.68,1.26,1.67,PLC communication instability,Verify hydraulic pump condition,Open
+261,model1_35,comp3,1,Thermal,Motor temperature anomaly detected,Medium,1.38,vibration,0.74,0.95,0.57,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+262,model1_35,comp4,2,Automation,Automation system anomaly detected,Medium,2.26,rotation,0.71,0.1,1.17,Electrical synchronization issue,Check rotational synchronization,Open
+263,model1_35,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,2.15,rotation,0.24,0.63,1.15,Mechanical imbalance,Verify rotational sensor consistency,Open
+264,model1_35,comp2,2,Hydraulic,Severe hydraulic fluctuation identified on aging equipment,High,3.36,vibration,1.33,0.86,1.53,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+265,model1_35,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,2.23,rotation,0.35,0.36,1.74,Mechanical imbalance,Verify rotational sensor consistency,Open
+266,model1_35,comp1,1,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.44,vibration,0.78,0.76,0.14,Lubrication degradation,Verify shaft balancing and alignment,Open
+267,model1_35,comp4,1,Automation,PLC communication instability observed,Medium,1.38,vibration,0.11,0.59,0.26,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+268,model4_36,comp1,1,Mechanical,Slight rotational instability detected,Low,0.92,vibration,0.61,0.41,0.69,Bearing wear,Verify shaft balancing and alignment,Open
+269,model4_36,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.77,pressure,0.14,1.03,0.39,Lubrication degradation,Verify hydraulic pump condition,Open
+270,model4_36,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.72,vibration,0.51,0.75,0.09,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+271,model4_36,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.87,rotation,0.91,0.46,1.31,Hydraulic valve degradation,Check rotational synchronization,Open
+272,model1_37,comp4,1,Automation,Automation system anomaly detected,Medium,1.24,vibration,0.82,0.57,0.07,PLC communication instability,Verify shaft balancing and alignment,Open
+273,model1_37,comp3,2,Thermal,Elevated thermal instability detected on aging equipment,High,3.44,vibration,1.26,0.67,1.69,Cooling fan malfunction,Check rotational stability,Open
+274,model1_37,comp4,5,Automation,Severe PLC communication failure observed on aging equipment,Critical,5.96,pressure,0.94,3.16,1.09,Control signal degradation,Verify hydraulic pump condition,Open
+275,model1_37,comp3,1,Thermal,Moderate thermal instability observed,Medium,1.21,vibration,0.24,0.3,0.92,Cooling system degradation,Check rotational stability,Open
+276,model1_37,comp4,1,Automation,PLC communication instability observed,Medium,1.26,vibration,0.39,0.27,0.56,Control signal degradation,Inspect spindle bearing and lubrication system,Open
+277,model1_37,comp1,1,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.43,vibration,0.39,0.36,0.39,Mechanical imbalance,Verify shaft balancing and alignment,Open
+278,model1_37,comp3,1,Thermal,Motor temperature anomaly detected,Medium,1.26,vibration,0.73,0.24,0.23,Thermal overload,Check rotational stability,Open
+279,model1_37,comp4,2,Automation,PLC communication instability observed,Medium,2.33,pressure,0.15,1.34,0.36,Control signal degradation,Check valve stability,Open
+280,model1_37,comp2,3,Hydraulic,Critical hydraulic pressure instability detected on aging equipment,Critical,5.72,vibration,2.19,0.8,2.26,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+281,model1_37,comp2,3,Hydraulic,Critical hydraulic pressure instability detected on aging equipment,Critical,4.61,vibration,2.55,1.5,0.08,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+282,model1_37,comp4,1,Automation,PLC communication instability observed,Medium,1.26,vibration,0.28,0.38,0.7,Control signal degradation,Verify shaft balancing and alignment,Open
+283,model1_37,comp2,1,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.27,vibration,0.51,0.57,0.29,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+284,model1_37,comp3,3,Thermal,High thermal stress identified on aging equipment,High,3.8,rotation,0.03,0.74,2.19,Thermal overload,Check rotational synchronization,Open
+285,model1_37,comp4,1,Automation,Automation system anomaly detected,Medium,1.37,vibration,0.14,0.91,0.81,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+286,model4_38,comp4,2,Automation,Automation system anomaly detected,Medium,1.82,vibration,1.18,0.42,0.58,Control signal degradation,Verify shaft balancing and alignment,Open
+287,model4_38,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.81,vibration,0.74,0.52,0.35,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+288,model4_38,comp4,2,Automation,High-risk automation instability detected,High,3.0,vibration,1.39,0.03,1.26,PLC communication instability,Verify shaft balancing and alignment,Open
+289,model4_38,comp2,4,Hydraulic,Critical hydraulic pressure instability detected,Critical,6.29,vibration,2.6,1.05,1.9,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+290,model4_38,comp4,2,Automation,PLC communication instability observed,Medium,1.92,vibration,1.12,0.86,0.93,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+291,model4_38,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.71,vibration,1.02,0.2,0.15,Lubrication degradation,Check rotational stability,Open
+292,model4_38,comp4,2,Automation,Automation system anomaly detected,Medium,1.68,rotation,0.38,0.42,1.44,Electrical synchronization issue,Inspect rotational control subsystem,Open
+293,model4_39,comp2,2,Hydraulic,Critical hydraulic pressure instability detected,Critical,4.47,vibration,1.05,1.0,1.53,Hydraulic flow instability,Check rotational stability,Open
+294,model4_39,comp1,5,Mechanical,Emergency-level spindle instability identified,Critical,5.53,pressure,1.34,3.02,0.04,Bearing wear,Check valve stability,Open
+295,model4_39,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.83,vibration,1.68,0.08,0.82,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+296,model4_39,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.69,vibration,0.38,0.24,0.81,Hydraulic flow instability,Check rotational stability,Open
+297,model2_40,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.94,vibration,1.2,0.15,0.64,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+298,model2_40,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.89,vibration,0.21,0.28,0.3,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+299,model2_40,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.89,vibration,0.27,0.1,0.11,Bearing wear,Verify shaft balancing and alignment,Open
+300,model2_40,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.94,rotation,0.19,0.58,1.06,Thermal overload,Check rotational synchronization,Open
+301,model2_40,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.8,rotation,0.5,0.04,1.1,Hydraulic valve degradation,Inspect rotational control subsystem,Open
+302,model2_40,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.84,vibration,1.03,0.84,0.65,Mechanical imbalance,Check rotational stability,Open
+303,model2_40,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.82,vibration,0.79,0.15,0.37,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+304,model2_40,comp1,3,Mechanical,High-risk spindle oscillation beyond normal range,Critical,4.07,rotation,0.65,1.19,2.29,Mechanical imbalance,Inspect rotational control subsystem,Open
+305,model2_40,comp3,3,Thermal,High thermal stress identified,High,3.13,rotation,0.33,0.76,2.15,Cooling system degradation,Inspect rotational control subsystem,Open
+306,model4_41,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.92,vibration,0.37,0.58,0.55,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+307,model4_41,comp1,3,Mechanical,High spindle vibration level identified,High,3.05,pressure,0.76,2.15,0.36,Mechanical imbalance,Check valve stability,Open
+308,model4_41,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.65,vibration,1.02,0.8,0.25,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+309,model1_42,comp1,1,Mechanical,Slight rotational instability detected,Low,0.74,vibration,0.34,0.97,0.01,Mechanical imbalance,Check rotational stability,Open
+310,model1_42,comp3,3,Thermal,Severe thermal operational anomaly observed,Critical,4.37,vibration,2.13,0.43,1.73,Cooling system degradation,Inspect spindle bearing and lubrication system,Open
+311,model1_42,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.75,vibration,0.66,0.14,0.29,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+312,model1_42,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.81,pressure,0.96,1.75,0.64,Hydraulic valve degradation,Verify hydraulic pump condition,Open
+313,model1_42,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.93,vibration,0.45,0.34,0.97,Cooling system degradation,Check rotational stability,Open
+314,model1_42,comp2,4,Hydraulic,Critical hydraulic pressure instability detected,Critical,4.77,pressure,0.76,2.98,1.08,Pressure leakage,Verify hydraulic pump condition,Open
+315,model1_42,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.68,vibration,0.19,0.02,0.62,Cooling system degradation,Inspect spindle bearing and lubrication system,Open
+316,model1_42,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.71,vibration,0.42,0.56,0.52,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+317,model1_42,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.73,vibration,0.53,0.75,0.94,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+318,model3_43,comp1,1,Mechanical,Slight rotational instability detected,Low,0.85,vibration,0.66,0.67,0.28,Bearing wear,Check rotational stability,Open
+319,model3_43,comp4,2,Automation,Critical PLC instability trend identified,High,2.91,pressure,0.19,1.95,1.49,PLC communication instability,Check valve stability,Open
+320,model3_43,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.93,rotation,0.03,0.02,1.17,Hydraulic flow instability,Verify rotational sensor consistency,Open
+321,model3_43,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.83,rotation,0.08,0.52,1.5,Hydraulic flow instability,Inspect rotational control subsystem,Open
+322,model3_43,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.82,vibration,1.51,0.07,0.33,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+323,model3_43,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.8,vibration,0.72,0.87,0.29,Bearing wear,Check rotational stability,Open
+324,model3_43,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.85,vibration,1.02,0.92,0.24,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+325,model3_43,comp4,1,Automation,Minor automation instability detected,Low,0.84,vibration,0.02,0.58,0.41,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+326,model3_43,comp1,3,Mechanical,High spindle vibration level identified,High,3.27,pressure,0.84,2.31,0.54,Bearing wear,Verify hydraulic pump condition,Open
+327,model3_43,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.79,vibration,0.68,0.19,0.5,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+328,model4_44,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.65,vibration,0.58,0.89,0.68,Hydraulic valve degradation,Check rotational stability,Open
+329,model4_44,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.82,pressure,0.06,1.12,0.39,Bearing wear,Inspect hydraulic pressure lines,Open
+330,model4_44,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.88,vibration,0.04,0.5,0.95,Pressure leakage,Verify shaft balancing and alignment,Open
+331,model4_44,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.7,vibration,0.08,0.78,0.37,Bearing wear,Verify shaft balancing and alignment,Open
+332,model3_45,comp1,3,Mechanical,Severe mechanical instability observed,Critical,4.16,pressure,1.0,2.52,0.58,Bearing wear,Verify hydraulic pump condition,Open
+333,model3_45,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.78,vibration,0.14,0.42,0.28,Hydraulic valve degradation,Check rotational stability,Open
+334,model3_45,comp4,2,Automation,PLC communication instability observed,Medium,1.75,rotation,0.17,0.81,1.24,Electrical synchronization issue,Inspect rotational control subsystem,Open
+335,model3_45,comp4,2,Automation,PLC communication instability observed,Medium,1.79,pressure,0.31,1.4,0.01,Control signal degradation,Verify hydraulic pump condition,Open
+336,model3_45,comp4,2,Automation,Critical PLC instability trend identified,High,2.9,vibration,1.65,1.93,0.78,Control signal degradation,Check rotational stability,Open
+337,model3_45,comp4,2,Automation,Automation system anomaly detected,Medium,1.79,rotation,0.5,0.71,1.03,Electrical synchronization issue,Inspect rotational control subsystem,Open
+338,model3_45,comp1,2,Mechanical,Strong rotational imbalance observed,High,2.92,pressure,0.16,1.13,1.66,Mechanical imbalance,Verify hydraulic pump condition,Open
+339,model4_46,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.77,vibration,0.83,0.23,0.42,Hydraulic flow instability,Check rotational stability,Open
+340,model4_46,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.77,vibration,1.2,0.28,0.35,Hydraulic flow instability,Check rotational stability,Open
+341,model2_47,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.81,rotation,0.87,0.11,1.86,Cooling fan malfunction,Check rotational synchronization,Open
+342,model2_47,comp1,3,Mechanical,Severe mechanical instability observed,Critical,4.32,rotation,0.06,1.34,2.08,Mechanical imbalance,Check rotational synchronization,Open
+343,model2_47,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.7,vibration,1.96,0.62,0.21,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+344,model2_47,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.7,vibration,1.36,0.74,0.7,Cooling system degradation,Inspect spindle bearing and lubrication system,Open
+345,model2_47,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.66,vibration,0.74,0.24,0.45,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+346,model2_47,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.81,pressure,0.27,1.74,0.15,Lubrication degradation,Verify hydraulic pump condition,Open
+347,model2_47,comp3,3,Thermal,Elevated thermal instability detected,High,3.11,vibration,2.33,0.53,0.31,Thermal overload,Inspect spindle bearing and lubrication system,Open
+348,model2_47,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.8,vibration,0.63,0.16,0.12,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+349,model2_47,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.84,rotation,0.35,0.77,1.02,Hydraulic flow instability,Check rotational synchronization,Open
+350,model2_47,comp2,3,Hydraulic,Severe hydraulic operational anomaly observed,Critical,4.31,rotation,1.37,0.92,2.14,Hydraulic valve degradation,Verify rotational sensor consistency,Open
+351,model4_48,comp2,2,Hydraulic,Severe hydraulic fluctuation identified,High,2.73,pressure,0.8,1.4,1.23,Hydraulic valve degradation,Inspect hydraulic pressure lines,Open
+352,model4_48,comp1,4,Mechanical,Emergency-level spindle instability identified,Critical,4.77,pressure,1.5,2.79,0.84,Bearing wear,Verify hydraulic pump condition,Open
+353,model4_48,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.9,vibration,0.78,0.05,0.05,Hydraulic valve degradation,Check rotational stability,Open
+354,model4_48,comp2,2,Hydraulic,High hydraulic instability detected,High,2.88,vibration,1.27,1.36,0.47,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+355,model4_48,comp1,3,Mechanical,High spindle vibration level identified,High,3.08,pressure,0.31,2.36,0.46,Bearing wear,Verify hydraulic pump condition,Open
+356,model4_48,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.88,vibration,1.89,0.05,0.74,Bearing wear,Check rotational stability,Open
+357,model4_48,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.79,vibration,1.43,0.06,0.65,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+358,model1_49,comp4,1,Automation,Minor automation instability detected,Low,0.89,vibration,0.16,0.18,0.17,Control signal degradation,Check rotational stability,Open
+359,model1_49,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.76,vibration,0.13,0.09,0.01,Cooling system degradation,Check rotational stability,Open
+360,model1_49,comp4,2,Automation,Automation system anomaly detected,Medium,1.68,pressure,0.35,1.18,0.28,PLC communication instability,Inspect hydraulic pressure lines,Open
+361,model1_49,comp2,2,Hydraulic,High hydraulic instability detected,High,2.82,vibration,1.54,0.43,1.88,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+362,model1_49,comp4,1,Automation,Minor automation instability detected,Low,0.8,vibration,0.47,0.75,0.02,Electrical synchronization issue,Check rotational stability,Open
+363,model1_49,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.8,rotation,0.23,0.55,1.06,Thermal overload,Inspect rotational control subsystem,Open
+364,model1_49,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.87,vibration,0.75,0.52,0.15,Hydraulic flow instability,Check rotational stability,Open
+365,model1_49,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.78,pressure,0.73,1.99,0.94,Cooling fan malfunction,Inspect hydraulic pressure lines,Open
+366,model1_49,comp4,1,Automation,Minor automation instability detected,Low,0.7,vibration,0.47,0.39,0.42,Control signal degradation,Check rotational stability,Open
+367,model1_49,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.82,rotation,0.81,0.13,1.38,Cooling system degradation,Verify rotational sensor consistency,Open
+368,model1_49,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.69,pressure,0.93,1.52,0.85,Pressure leakage,Inspect hydraulic pressure lines,Open
+369,model1_49,comp4,1,Automation,Minor automation instability detected,Low,0.72,vibration,0.2,0.34,0.21,PLC communication instability,Verify shaft balancing and alignment,Open
+370,model4_50,comp1,2,Mechanical,Emergency-level spindle instability identified,Critical,4.54,vibration,1.05,1.31,1.05,Lubrication degradation,Verify shaft balancing and alignment,Open
+371,model4_50,comp2,2,Hydraulic,High hydraulic instability detected,High,2.92,vibration,1.48,1.57,0.53,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+372,model4_50,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.84,vibration,0.34,0.51,0.63,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+373,model4_50,comp2,3,Hydraulic,High hydraulic instability detected,High,3.22,pressure,0.99,2.31,0.27,Hydraulic valve degradation,Inspect hydraulic pressure lines,Open
+374,model4_51,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,2.41,rotation,0.22,0.84,1.38,Lubrication degradation,Verify rotational sensor consistency,Open
+375,model4_51,comp4,2,Automation,High-risk automation instability detected on aging equipment,High,3.26,vibration,1.01,1.22,0.35,Control signal degradation,Check rotational stability,Open
+376,model4_51,comp2,3,Hydraulic,Emergency hydraulic instability identified on aging equipment,Critical,6.25,rotation,1.0,1.89,2.1,Hydraulic flow instability,Check rotational synchronization,Open
+377,model4_51,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,2.2,vibration,1.86,0.71,0.98,Hydraulic flow instability,Check rotational stability,Open
+378,model4_51,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.24,rotation,0.2,0.41,1.31,Hydraulic valve degradation,Inspect rotational control subsystem,Open
+379,model4_51,comp4,2,Automation,Critical PLC instability trend identified on aging equipment,High,3.28,vibration,1.15,1.53,0.17,Control signal degradation,Check rotational stability,Open
+380,model4_51,comp2,1,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.26,vibration,0.65,0.8,0.59,Hydraulic flow instability,Check rotational stability,Open
+381,model4_51,comp4,2,Automation,PLC communication instability observed,Medium,2.21,rotation,0.07,0.85,1.58,Control signal degradation,Verify rotational sensor consistency,Open
+382,model4_51,comp4,2,Automation,High-risk automation instability detected on aging equipment,High,3.21,pressure,0.73,1.27,1.91,Electrical synchronization issue,Inspect hydraulic pressure lines,Open
+383,model4_51,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.43,pressure,0.08,1.84,0.26,Pressure leakage,Check valve stability,Open
+384,model3_52,comp2,2,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,2.81,pressure,0.58,1.64,1.14,Pressure leakage,Check valve stability,Open
+385,model3_52,comp4,1,Automation,Minor automation instability detected,Low,0.67,vibration,0.81,0.21,0.52,Electrical synchronization issue,Check rotational stability,Open
+386,model3_52,comp4,2,Automation,Automation system anomaly detected,Medium,1.85,rotation,0.97,0.51,1.04,Control signal degradation,Inspect rotational control subsystem,Open
+387,model3_52,comp2,2,Hydraulic,High hydraulic instability detected,High,2.8,vibration,1.11,1.63,0.01,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+388,model3_52,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.8,pressure,0.5,1.96,0.25,Bearing wear,Check valve stability,Open
+389,model3_52,comp4,3,Automation,Critical automation system instability detected,Critical,4.33,rotation,0.15,1.17,2.21,PLC communication instability,Inspect rotational control subsystem,Open
+390,model3_52,comp4,2,Automation,PLC communication instability observed,Medium,1.66,vibration,1.71,0.47,0.84,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+391,model3_53,comp1,2,Mechanical,Strong rotational imbalance observed,High,2.7,pressure,0.44,1.48,1.63,Lubrication degradation,Inspect hydraulic pressure lines,Open
+392,model3_53,comp2,2,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,2.8,vibration,1.59,0.56,1.04,Pressure leakage,Verify shaft balancing and alignment,Open
+393,model3_53,comp1,2,Mechanical,Strong rotational imbalance observed,High,2.68,pressure,0.55,1.19,1.37,Mechanical imbalance,Check valve stability,Open
+394,model3_53,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.78,vibration,0.32,0.83,0.08,Bearing wear,Verify shaft balancing and alignment,Open
+395,model3_53,comp2,2,Hydraulic,Severe hydraulic fluctuation identified,High,2.91,vibration,1.15,0.43,1.43,Hydraulic flow instability,Check rotational stability,Open
+396,model3_53,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.71,rotation,0.04,0.09,1.04,Hydraulic valve degradation,Check rotational synchronization,Open
+397,model2_54,comp3,2,Thermal,High thermal stress identified,High,2.89,vibration,1.0,1.16,0.61,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+398,model2_54,comp3,3,Thermal,High thermal stress identified,High,3.26,vibration,2.24,0.06,0.06,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+399,model2_54,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.81,rotation,0.89,0.94,1.74,Hydraulic flow instability,Check rotational synchronization,Open
+400,model2_54,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.92,vibration,0.27,0.25,0.81,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+401,model2_54,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.78,vibration,1.93,0.65,0.53,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+402,model3_55,comp4,3,Automation,High-risk automation instability detected on aging equipment,High,3.67,vibration,2.51,0.92,0.21,Electrical synchronization issue,Check rotational stability,Open
+403,model3_55,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,2.25,rotation,0.26,0.17,1.96,Hydraulic flow instability,Check rotational synchronization,Open
+404,model3_55,comp4,2,Automation,PLC communication instability observed,Medium,2.43,vibration,1.05,0.2,0.05,Electrical synchronization issue,Inspect spindle bearing and lubrication system,Open
+405,model3_55,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,2.18,pressure,0.57,1.18,0.05,Mechanical imbalance,Verify hydraulic pump condition,Open
+406,model3_55,comp1,2,Mechanical,High-risk spindle oscillation beyond normal range on aging equipment,Critical,4.86,vibration,1.2,1.22,1.84,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+407,model3_55,comp4,1,Automation,Automation system anomaly detected,Medium,1.29,vibration,0.67,0.96,0.47,PLC communication instability,Verify shaft balancing and alignment,Open
+408,model3_55,comp2,1,Hydraulic,Moderate hydraulic instability observed,Medium,1.34,vibration,0.03,0.26,0.13,Hydraulic valve degradation,Check rotational stability,Open
+409,model3_55,comp1,4,Mechanical,High-risk spindle oscillation beyond normal range on aging equipment,Critical,6.79,pressure,1.29,2.61,1.28,Mechanical imbalance,Check valve stability,Open
+410,model1_56,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.81,rotation,0.77,0.25,1.59,Cooling system degradation,Verify rotational sensor consistency,Open
+411,model1_56,comp3,3,Thermal,Severe thermal operational anomaly observed,Critical,5.92,pressure,1.27,2.18,1.38,Thermal overload,Verify hydraulic pump condition,Open
+412,model1_56,comp3,2,Thermal,Elevated thermal instability detected,High,2.69,pressure,0.41,1.38,1.19,Cooling fan malfunction,Verify hydraulic pump condition,Open
+413,model1_56,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.78,vibration,0.16,0.26,0.56,Mechanical imbalance,Check rotational stability,Open
+414,model1_56,comp2,2,Hydraulic,Severe hydraulic fluctuation identified,High,2.75,pressure,0.18,1.11,1.74,Hydraulic flow instability,Check valve stability,Open
+415,model1_56,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.77,vibration,0.71,0.49,0.0,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+416,model1_56,comp2,2,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,2.66,vibration,1.27,1.94,0.77,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+417,model1_56,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.78,vibration,0.31,0.71,0.27,Cooling system degradation,Verify shaft balancing and alignment,Open
+418,model1_56,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.77,pressure,0.58,1.11,0.17,Bearing wear,Verify hydraulic pump condition,Open
+419,model1_56,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.66,vibration,0.74,0.66,0.84,Pressure leakage,Verify shaft balancing and alignment,Open
+420,model1_56,comp1,2,Mechanical,Severe spindle instability detected,High,2.77,vibration,1.46,0.36,1.2,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+421,model4_57,comp1,2,Mechanical,High spindle vibration level identified,High,2.78,vibration,1.12,0.28,1.61,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+422,model4_57,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.72,rotation,0.07,0.01,1.3,Lubrication degradation,Verify rotational sensor consistency,Open
+423,model1_58,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.74,vibration,1.04,0.05,0.23,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+424,model1_58,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.93,vibration,0.81,0.34,0.51,Thermal overload,Verify shaft balancing and alignment,Open
+425,model1_58,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.75,pressure,0.94,1.16,0.1,Cooling system degradation,Verify hydraulic pump condition,Open
+426,model1_58,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.9,vibration,0.26,0.62,0.38,Bearing wear,Inspect spindle bearing and lubrication system,Open
+427,model1_58,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.75,vibration,1.46,0.97,0.98,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+428,model1_58,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.89,vibration,0.06,0.05,0.04,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+429,model1_58,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.95,vibration,0.17,0.51,0.4,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+430,model1_58,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.9,vibration,0.54,0.25,0.18,Hydraulic valve degradation,Check rotational stability,Open
+431,model3_59,comp1,1,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.26,vibration,0.01,0.46,0.44,Bearing wear,Check rotational stability,Open
+432,model3_59,comp4,1,Automation,Automation system anomaly detected,Medium,1.44,vibration,0.9,0.61,0.48,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+433,model3_59,comp4,3,Automation,Severe PLC communication failure observed on aging equipment,Critical,4.72,pressure,0.68,2.49,1.93,Control signal degradation,Check valve stability,Open
+434,model3_59,comp4,2,Automation,Critical PLC instability trend identified on aging equipment,High,3.33,vibration,1.37,1.52,0.9,Control signal degradation,Verify shaft balancing and alignment,Open
+435,model3_59,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.27,vibration,0.8,0.7,0.21,Bearing wear,Verify shaft balancing and alignment,Open
+436,model3_59,comp2,2,Hydraulic,High hydraulic instability detected on aging equipment,High,3.16,pressure,0.08,1.07,1.3,Hydraulic valve degradation,Inspect hydraulic pressure lines,Open
+437,model3_59,comp4,1,Automation,Automation system anomaly detected,Medium,1.21,vibration,0.0,0.11,0.66,Control signal degradation,Verify shaft balancing and alignment,Open
+438,model3_59,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,2.38,rotation,0.3,0.23,1.14,Pressure leakage,Verify rotational sensor consistency,Open
+439,model4_60,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.69,rotation,0.87,0.73,1.79,Hydraulic valve degradation,Verify rotational sensor consistency,Open
+440,model4_60,comp2,3,Hydraulic,Emergency hydraulic instability identified,Critical,4.39,rotation,1.51,0.93,2.5,Hydraulic flow instability,Check rotational synchronization,Open
+441,model4_60,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.94,vibration,0.15,0.13,0.29,Hydraulic flow instability,Check rotational stability,Open
+442,model4_60,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.82,vibration,0.13,0.41,0.18,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+443,model4_61,comp2,2,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,2.98,vibration,1.15,0.37,1.59,Pressure leakage,Check rotational stability,Open
+444,model4_61,comp2,4,Hydraulic,Critical hydraulic pressure instability detected,Critical,4.94,vibration,2.86,0.65,1.21,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+445,model4_61,comp1,1,Mechanical,Slight rotational instability detected,Low,0.95,vibration,0.05,0.78,0.33,Mechanical imbalance,Check rotational stability,Open
+446,model4_61,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.75,pressure,0.62,1.52,0.92,Pressure leakage,Check valve stability,Open
+447,model4_62,comp1,1,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.34,vibration,0.74,0.76,0.16,Lubrication degradation,Check rotational stability,Open
+448,model4_62,comp4,4,Automation,Critical automation system instability detected on aging equipment,Critical,4.18,rotation,0.24,0.65,2.86,Control signal degradation,Inspect rotational control subsystem,Open
+449,model4_62,comp4,2,Automation,Critical PLC instability trend identified on aging equipment,High,3.5,vibration,1.41,0.44,1.58,Control signal degradation,Inspect spindle bearing and lubrication system,Open
+450,model4_62,comp2,1,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.42,vibration,0.57,0.8,0.43,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+451,model4_62,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.42,vibration,0.82,0.86,0.62,Lubrication degradation,Check rotational stability,Open
+452,model4_62,comp4,2,Automation,High-risk automation instability detected on aging equipment,High,3.39,vibration,1.47,0.71,1.28,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+453,model4_62,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,2.16,vibration,1.69,0.19,0.04,Pressure leakage,Check rotational stability,Open
+454,model4_63,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.9,vibration,1.23,0.79,0.54,Bearing wear,Inspect spindle bearing and lubrication system,Open
+455,model4_63,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.9,vibration,0.43,0.57,0.21,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+456,model4_63,comp4,2,Automation,Automation system anomaly detected,Medium,1.77,pressure,0.48,1.07,0.48,Electrical synchronization issue,Inspect hydraulic pressure lines,Open
+457,model4_63,comp4,2,Automation,PLC communication instability observed,Medium,1.91,rotation,0.29,0.1,1.4,Electrical synchronization issue,Verify rotational sensor consistency,Open
+458,model4_63,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.89,pressure,0.41,1.91,0.17,Hydraulic valve degradation,Verify hydraulic pump condition,Open
+459,model4_63,comp4,1,Automation,Minor automation instability detected,Low,0.73,vibration,0.72,0.46,0.14,Control signal degradation,Inspect spindle bearing and lubrication system,Open
+460,model4_63,comp4,2,Automation,PLC communication instability observed,Medium,1.72,pressure,0.21,1.1,0.22,Electrical synchronization issue,Check valve stability,Open
+461,model4_63,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.71,vibration,0.17,0.58,0.09,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+462,model3_64,comp4,1,Automation,PLC communication instability observed,Medium,1.33,vibration,0.06,0.25,0.0,Electrical synchronization issue,Check rotational stability,Open
+463,model3_64,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.26,rotation,0.16,0.38,1.59,Hydraulic valve degradation,Check rotational synchronization,Open
+464,model3_64,comp4,2,Automation,Automation system anomaly detected,Medium,2.42,vibration,1.55,0.24,0.57,PLC communication instability,Verify shaft balancing and alignment,Open
+465,model3_64,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.2,rotation,0.79,0.33,1.18,Pressure leakage,Inspect rotational control subsystem,Open
+466,model3_64,comp4,1,Automation,Automation system anomaly detected,Medium,1.41,vibration,0.97,0.49,0.57,PLC communication instability,Verify shaft balancing and alignment,Open
+467,model3_64,comp4,2,Automation,Automation system anomaly detected,Medium,2.37,pressure,0.11,1.41,0.4,Electrical synchronization issue,Check valve stability,Open
+468,model3_64,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,2.18,vibration,1.19,0.2,0.13,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+469,model3_64,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.36,vibration,0.51,0.24,0.57,Mechanical imbalance,Check rotational stability,Open
+470,model3_65,comp1,2,Mechanical,High spindle vibration level identified,High,2.67,vibration,1.6,1.08,0.92,Lubrication degradation,Verify shaft balancing and alignment,Open
+471,model3_65,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.75,vibration,0.19,0.66,0.46,Lubrication degradation,Verify shaft balancing and alignment,Open
+472,model3_65,comp4,1,Automation,Minor automation instability detected,Low,0.72,vibration,0.69,0.74,0.81,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+473,model3_65,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.93,vibration,0.01,0.38,0.79,Mechanical imbalance,Verify shaft balancing and alignment,Open
+474,model3_65,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.84,vibration,1.63,0.12,0.22,Pressure leakage,Check rotational stability,Open
+475,model3_65,comp4,2,Automation,PLC communication instability observed,Medium,1.88,pressure,0.72,1.05,0.07,Electrical synchronization issue,Verify hydraulic pump condition,Open
+476,model4_66,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.86,vibration,0.45,0.51,0.92,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+477,model4_66,comp1,2,Mechanical,High spindle vibration level identified,High,2.67,pressure,0.49,1.16,1.05,Bearing wear,Inspect hydraulic pressure lines,Open
+478,model4_66,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.74,rotation,0.26,0.26,1.86,Hydraulic flow instability,Verify rotational sensor consistency,Open
+479,model4_66,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.83,rotation,0.96,0.21,1.14,Lubrication degradation,Check rotational synchronization,Open
+480,model4_66,comp1,3,Mechanical,Severe spindle instability detected,High,3.06,rotation,0.82,0.5,2.5,Mechanical imbalance,Inspect rotational control subsystem,Open
+481,model4_67,comp2,3,Hydraulic,High hydraulic instability detected,High,3.3,vibration,2.07,0.29,0.76,Hydraulic flow instability,Check rotational stability,Open
+482,model4_67,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.76,vibration,1.6,0.61,0.63,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+483,model4_67,comp4,3,Automation,Critical automation system instability detected,Critical,4.25,rotation,0.87,1.38,2.14,PLC communication instability,Inspect rotational control subsystem,Open
+484,model4_67,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.75,rotation,0.69,0.38,1.72,Mechanical imbalance,Check rotational synchronization,Open
+485,model4_67,comp2,3,Hydraulic,High hydraulic instability detected,High,3.15,vibration,2.43,0.95,0.64,Hydraulic valve degradation,Check rotational stability,Open
+486,model4_67,comp4,2,Automation,Severe PLC communication failure observed,Critical,4.51,vibration,1.31,1.35,1.25,PLC communication instability,Verify shaft balancing and alignment,Open
+487,model4_67,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.66,rotation,0.12,0.5,1.76,Hydraulic flow instability,Inspect rotational control subsystem,Open
+488,model4_67,comp1,3,Mechanical,High-risk spindle oscillation beyond normal range,Critical,4.18,rotation,1.06,0.67,2.04,Mechanical imbalance,Inspect rotational control subsystem,Open
+489,model4_67,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.72,rotation,0.81,0.73,1.39,Pressure leakage,Verify rotational sensor consistency,Open
+490,model3_68,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.73,pressure,0.01,1.05,0.19,Hydraulic valve degradation,Check valve stability,Open
+491,model3_68,comp2,3,Hydraulic,Critical hydraulic pressure instability detected,Critical,4.14,rotation,0.92,1.81,2.04,Hydraulic valve degradation,Check rotational synchronization,Open
+492,model3_68,comp1,2,Mechanical,High spindle vibration level identified,High,2.89,vibration,1.57,0.34,1.85,Bearing wear,Inspect spindle bearing and lubrication system,Open
+493,model3_68,comp2,2,Hydraulic,High hydraulic instability detected,High,2.7,vibration,1.16,1.06,0.86,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+494,model2_69,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,2.42,pressure,0.22,1.1,0.1,Hydraulic valve degradation,Verify hydraulic pump condition,Open
+495,model2_69,comp3,1,Thermal,Motor temperature anomaly detected,Medium,1.31,vibration,0.32,0.85,0.19,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+496,model2_69,comp4,1,Automation,Automation system anomaly detected,Medium,1.27,vibration,0.16,0.64,0.67,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+497,model2_69,comp4,2,Automation,Automation system anomaly detected,Medium,2.23,vibration,1.14,0.39,0.44,Electrical synchronization issue,Check rotational stability,Open
+498,model2_69,comp2,1,Hydraulic,Moderate hydraulic instability observed,Medium,1.19,vibration,0.36,0.96,0.57,Hydraulic flow instability,Check rotational stability,Open
+499,model2_69,comp3,2,Thermal,Motor temperature anomaly detected,Medium,2.31,pressure,0.04,1.44,0.77,Cooling system degradation,Inspect hydraulic pressure lines,Open
+500,model2_69,comp2,5,Hydraulic,Emergency hydraulic instability identified on aging equipment,Critical,5.03,pressure,0.17,3.23,0.06,Hydraulic flow instability,Inspect hydraulic pressure lines,Open
+501,model2_69,comp4,1,Automation,Automation system anomaly detected,Medium,1.4,vibration,0.05,0.44,0.84,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+502,model2_69,comp4,2,Automation,PLC communication instability observed,Medium,2.22,vibration,1.51,0.13,0.02,Control signal degradation,Check rotational stability,Open
+503,model2_69,comp3,2,Thermal,High thermal stress identified on aging equipment,High,3.49,vibration,1.13,0.02,1.85,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+504,model3_70,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.91,vibration,1.05,0.4,0.67,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+505,model3_70,comp2,2,Hydraulic,Severe hydraulic fluctuation identified,High,2.93,pressure,0.76,1.29,1.03,Hydraulic flow instability,Check valve stability,Open
+506,model3_70,comp1,3,Mechanical,High spindle vibration level identified,High,3.35,rotation,0.01,0.83,2.08,Lubrication degradation,Inspect rotational control subsystem,Open
+507,model3_70,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.67,vibration,0.8,0.74,0.05,Lubrication degradation,Verify shaft balancing and alignment,Open
+508,model3_70,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.75,rotation,0.51,0.19,1.2,Pressure leakage,Check rotational synchronization,Open
+509,model2_71,comp2,1,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.21,vibration,0.27,0.1,0.93,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+510,model2_71,comp3,2,Thermal,Moderate thermal instability observed,Medium,2.39,pressure,0.53,1.31,0.45,Cooling fan malfunction,Verify hydraulic pump condition,Open
+511,model2_71,comp4,2,Automation,Automation system anomaly detected,Medium,2.4,vibration,1.38,0.66,0.73,Control signal degradation,Inspect spindle bearing and lubrication system,Open
+512,model2_71,comp1,2,Mechanical,High spindle vibration level identified on aging equipment,High,3.32,vibration,1.3,0.12,1.42,Lubrication degradation,Check rotational stability,Open
+513,model2_71,comp2,1,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.36,vibration,0.67,0.55,0.61,Pressure leakage,Check rotational stability,Open
+514,model2_71,comp3,2,Thermal,Moderate thermal instability observed,Medium,2.44,rotation,0.05,0.92,1.64,Cooling system degradation,Check rotational synchronization,Open
+515,model2_71,comp1,2,Mechanical,Strong rotational imbalance observed on aging equipment,High,3.25,pressure,0.23,1.38,1.47,Mechanical imbalance,Inspect hydraulic pressure lines,Open
+516,model2_71,comp2,1,Hydraulic,Moderate hydraulic instability observed,Medium,1.2,vibration,0.04,0.07,0.7,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+517,model2_71,comp4,1,Automation,PLC communication instability observed,Medium,1.37,vibration,0.86,0.77,0.01,Electrical synchronization issue,Check rotational stability,Open
+518,model2_71,comp3,1,Thermal,Moderate thermal instability observed,Medium,1.22,vibration,0.06,0.72,0.28,Thermal overload,Verify shaft balancing and alignment,Open
+519,model2_71,comp4,2,Automation,Industrial control synchronization instability observed on aging equipment,High,3.41,pressure,0.94,1.09,1.71,Electrical synchronization issue,Inspect hydraulic pressure lines,Open
+520,model2_71,comp3,2,Thermal,Moderate thermal instability observed,Medium,2.33,vibration,1.59,0.74,0.05,Cooling fan malfunction,Check rotational stability,Open
+521,model2_71,comp4,2,Automation,Critical PLC instability trend identified on aging equipment,High,3.23,vibration,1.09,1.83,0.47,Control signal degradation,Check rotational stability,Open
+522,model4_72,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.8,vibration,1.46,0.72,0.3,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+523,model4_72,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.85,vibration,0.69,0.64,0.09,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+524,model2_73,comp2,3,Hydraulic,Critical hydraulic pressure instability detected on aging equipment,Critical,4.73,rotation,0.8,1.82,2.07,Hydraulic valve degradation,Inspect rotational control subsystem,Open
+525,model2_73,comp3,2,Thermal,Moderate thermal instability observed,Medium,2.17,pressure,0.36,1.09,0.78,Cooling system degradation,Check valve stability,Open
+526,model2_73,comp4,1,Automation,Automation system anomaly detected,Medium,1.23,vibration,0.67,0.81,0.51,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+527,model2_73,comp1,2,Mechanical,Severe spindle instability detected on aging equipment,High,3.24,pressure,0.78,1.05,1.64,Mechanical imbalance,Inspect hydraulic pressure lines,Open
+528,model2_73,comp4,2,Automation,PLC communication instability observed,Medium,2.41,pressure,0.06,1.55,0.72,Electrical synchronization issue,Check valve stability,Open
+529,model2_73,comp3,1,Thermal,Motor temperature anomaly detected,Medium,1.28,vibration,0.94,0.01,0.42,Thermal overload,Inspect spindle bearing and lubrication system,Open
+530,model2_73,comp1,1,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.4,vibration,0.34,0.51,0.53,Lubrication degradation,Verify shaft balancing and alignment,Open
+531,model2_73,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,2.34,vibration,1.11,0.7,0.92,Bearing wear,Verify shaft balancing and alignment,Open
+532,model2_73,comp3,3,Thermal,Elevated thermal instability detected on aging equipment,High,3.66,rotation,0.45,0.05,2.07,Cooling fan malfunction,Check rotational synchronization,Open
+533,model2_73,comp4,2,Automation,PLC communication instability observed,Medium,2.24,pressure,0.7,1.94,0.5,Electrical synchronization issue,Verify hydraulic pump condition,Open
+534,model2_73,comp3,2,Thermal,Elevated thermal instability detected on aging equipment,High,3.49,vibration,1.09,0.03,1.07,Cooling fan malfunction,Check rotational stability,Open
+535,model2_73,comp1,4,Mechanical,Critical spindle vibration anomaly detected on aging equipment,Critical,5.24,pressure,1.63,2.7,0.73,Bearing wear,Verify hydraulic pump condition,Open
+536,model4_74,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.75,vibration,0.22,0.47,0.32,Bearing wear,Check rotational stability,Open
+537,model4_74,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.87,vibration,0.85,0.48,0.73,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+538,model4_74,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.81,vibration,0.27,0.05,0.14,Pressure leakage,Verify shaft balancing and alignment,Open
+539,model4_74,comp2,4,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,3.85,pressure,0.7,2.99,0.73,Pressure leakage,Check valve stability,Open
+540,model4_74,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.77,vibration,0.54,0.21,0.56,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+541,model4_74,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.92,vibration,0.57,0.07,0.24,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+542,model3_75,comp1,2,Mechanical,Severe spindle instability detected on aging equipment,High,3.5,vibration,1.3,0.32,1.83,Bearing wear,Verify shaft balancing and alignment,Open
+543,model3_75,comp4,2,Automation,PLC communication instability observed,Medium,2.31,rotation,0.67,0.52,1.42,PLC communication instability,Inspect rotational control subsystem,Open
+544,model3_75,comp1,1,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.39,vibration,0.84,0.11,0.68,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+545,model3_75,comp4,1,Automation,PLC communication instability observed,Medium,1.44,vibration,0.34,0.73,0.72,Control signal degradation,Verify shaft balancing and alignment,Open
+546,model3_75,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,2.42,pressure,0.72,1.88,0.84,Pressure leakage,Check valve stability,Open
+547,model3_75,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,2.36,rotation,0.84,0.17,1.34,Hydraulic valve degradation,Inspect rotational control subsystem,Open
+548,model3_75,comp2,1,Hydraulic,Moderate hydraulic instability observed,Medium,1.24,vibration,0.94,0.07,0.33,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+549,model3_75,comp4,2,Automation,PLC communication instability observed,Medium,2.41,rotation,0.19,0.24,1.02,Control signal degradation,Check rotational synchronization,Open
+550,model3_75,comp2,1,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.29,vibration,0.55,0.82,0.69,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+551,model2_76,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.75,vibration,1.46,0.32,0.28,Thermal overload,Verify shaft balancing and alignment,Open
+552,model2_76,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.69,pressure,0.36,1.02,0.34,Bearing wear,Inspect hydraulic pressure lines,Open
+553,model2_76,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.78,rotation,0.26,0.53,1.03,Hydraulic valve degradation,Inspect rotational control subsystem,Open
+554,model2_76,comp1,3,Mechanical,Emergency-level spindle instability identified,Critical,4.16,rotation,0.67,1.36,2.08,Mechanical imbalance,Check rotational synchronization,Open
+555,model2_76,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.93,vibration,0.18,0.55,0.57,Cooling system degradation,Check rotational stability,Open
+556,model2_76,comp2,3,Hydraulic,High hydraulic instability detected,High,3.08,vibration,2.44,0.75,0.06,Hydraulic valve degradation,Check rotational stability,Open
+557,model2_76,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.79,pressure,0.88,1.17,0.94,Cooling fan malfunction,Verify hydraulic pump condition,Open
+558,model2_76,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.75,vibration,0.64,0.85,0.9,Cooling system degradation,Inspect spindle bearing and lubrication system,Open
+559,model2_76,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.77,vibration,1.28,0.96,0.92,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+560,model4_78,comp4,3,Automation,Critical PLC instability trend identified on aging equipment,High,3.66,rotation,0.25,0.08,2.05,Electrical synchronization issue,Inspect rotational control subsystem,Open
+561,model4_78,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,2.37,pressure,0.45,1.31,0.23,Hydraulic flow instability,Check valve stability,Open
+562,model4_78,comp1,3,Mechanical,Critical spindle vibration anomaly detected on aging equipment,Critical,6.23,vibration,2.16,1.49,1.09,Bearing wear,Check rotational stability,Open
+563,model4_78,comp4,3,Automation,High-risk automation instability detected on aging equipment,High,3.55,rotation,0.84,0.18,2.51,Control signal degradation,Inspect rotational control subsystem,Open
+564,model4_78,comp1,1,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.17,vibration,0.34,0.95,0.92,Bearing wear,Verify shaft balancing and alignment,Open
+565,model4_78,comp4,5,Automation,Severe PLC communication failure observed on aging equipment,Critical,4.99,vibration,3.09,0.34,0.07,Electrical synchronization issue,Inspect spindle bearing and lubrication system,Open
+566,model4_78,comp4,2,Automation,Industrial control synchronization instability observed on aging equipment,High,3.36,pressure,0.08,1.76,1.35,Electrical synchronization issue,Check valve stability,Open
+567,model4_78,comp4,1,Automation,PLC communication instability observed,Medium,1.32,vibration,0.18,0.61,0.43,Control signal degradation,Inspect spindle bearing and lubrication system,Open
+568,model4_78,comp2,3,Hydraulic,Emergency hydraulic instability identified on aging equipment,Critical,4.92,rotation,1.1,0.7,2.32,Hydraulic valve degradation,Inspect rotational control subsystem,Open
+569,model3_79,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.76,vibration,0.7,0.37,0.38,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+570,model3_79,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.79,rotation,0.36,0.35,1.9,Pressure leakage,Verify rotational sensor consistency,Open
+571,model3_79,comp4,3,Automation,Industrial control synchronization instability observed,High,3.22,pressure,0.12,2.4,0.85,PLC communication instability,Verify hydraulic pump condition,Open
+572,model3_79,comp1,2,Mechanical,High spindle vibration level identified,High,2.96,vibration,1.38,0.97,1.41,Lubrication degradation,Verify shaft balancing and alignment,Open
+573,model3_79,comp4,2,Automation,Automation system anomaly detected,Medium,1.66,vibration,1.35,0.24,0.08,Electrical synchronization issue,Check rotational stability,Open
+574,model3_79,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.9,pressure,0.23,1.21,0.18,Pressure leakage,Verify hydraulic pump condition,Open
+575,model3_79,comp1,3,Mechanical,Severe spindle instability detected,High,3.09,rotation,0.24,0.6,2.0,Mechanical imbalance,Verify rotational sensor consistency,Open
+576,model3_79,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.91,vibration,0.3,0.55,0.41,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+577,model3_79,comp4,2,Automation,PLC communication instability observed,Medium,1.88,rotation,0.51,0.53,1.22,Control signal degradation,Verify rotational sensor consistency,Open
+578,model3_79,comp4,2,Automation,Automation system anomaly detected,Medium,1.92,pressure,0.08,1.33,0.57,Control signal degradation,Verify hydraulic pump condition,Open
+579,model3_80,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.69,vibration,0.24,0.98,0.88,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+580,model3_80,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.82,pressure,0.95,1.32,0.4,Hydraulic valve degradation,Inspect hydraulic pressure lines,Open
+581,model3_80,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.85,vibration,0.95,0.45,0.83,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+582,model3_80,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.89,rotation,0.74,0.29,1.47,Hydraulic flow instability,Inspect rotational control subsystem,Open
+583,model3_80,comp2,3,Hydraulic,High hydraulic instability detected,High,3.08,vibration,2.4,0.33,0.52,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+584,model4_81,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.91,vibration,0.68,0.06,0.31,Lubrication degradation,Verify shaft balancing and alignment,Open
+585,model4_81,comp2,3,Hydraulic,High hydraulic instability detected,High,3.26,vibration,2.28,0.55,0.43,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+586,model4_81,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.94,vibration,0.28,0.37,0.24,Bearing wear,Check rotational stability,Open
+587,model4_81,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.78,rotation,0.84,0.56,1.66,Pressure leakage,Check rotational synchronization,Open
+588,model4_81,comp2,2,Hydraulic,Severe hydraulic fluctuation identified,High,2.88,vibration,1.05,0.78,1.08,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+589,model4_81,comp2,3,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,3.28,vibration,2.62,0.31,0.39,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+590,model4_81,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.81,vibration,1.3,0.96,0.41,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+591,model4_81,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.75,vibration,0.9,0.64,0.51,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+592,model3_82,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.75,vibration,0.27,0.14,0.05,Bearing wear,Verify shaft balancing and alignment,Open
+593,model3_82,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,1.76,pressure,0.36,1.71,0.77,Lubrication degradation,Check valve stability,Open
+594,model3_82,comp1,2,Mechanical,Severe spindle instability detected,High,2.79,pressure,0.7,1.15,1.03,Bearing wear,Inspect hydraulic pressure lines,Open
+595,model3_82,comp2,2,Hydraulic,Severe hydraulic fluctuation identified,High,2.8,vibration,1.01,0.73,1.13,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+596,model4_83,comp4,1,Automation,PLC communication instability observed,Medium,1.45,vibration,0.48,0.08,0.32,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+597,model4_83,comp4,2,Automation,Automation system anomaly detected,Medium,2.15,pressure,0.64,1.51,0.57,Electrical synchronization issue,Verify hydraulic pump condition,Open
+598,model4_83,comp4,1,Automation,Automation system anomaly detected,Medium,1.38,vibration,0.21,0.35,0.24,Control signal degradation,Verify shaft balancing and alignment,Open
+599,model4_83,comp4,1,Automation,Automation system anomaly detected,Medium,1.16,vibration,0.49,0.28,0.44,Electrical synchronization issue,Inspect spindle bearing and lubrication system,Open
+600,model4_83,comp2,1,Hydraulic,Moderate hydraulic instability observed,Medium,1.21,vibration,0.29,0.47,0.05,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+601,model4_83,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,2.35,vibration,1.17,0.1,0.9,Mechanical imbalance,Check rotational stability,Open
+602,model4_83,comp4,1,Automation,Automation system anomaly detected,Medium,1.36,vibration,0.13,0.28,0.01,Electrical synchronization issue,Inspect spindle bearing and lubrication system,Open
+603,model4_83,comp2,1,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.29,vibration,0.65,0.56,0.65,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+604,model4_83,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,2.23,vibration,1.72,0.17,0.48,Bearing wear,Verify shaft balancing and alignment,Open
+605,model4_83,comp2,4,Hydraulic,Severe hydraulic operational anomaly observed on aging equipment,Critical,4.2,vibration,2.66,0.89,0.3,Pressure leakage,Verify shaft balancing and alignment,Open
+606,model4_83,comp1,3,Mechanical,Critical spindle vibration anomaly detected on aging equipment,Critical,4.64,pressure,1.05,2.25,0.27,Bearing wear,Inspect hydraulic pressure lines,Open
+607,model4_83,comp4,1,Automation,Automation system anomaly detected,Medium,1.41,vibration,0.27,0.55,0.36,PLC communication instability,Verify shaft balancing and alignment,Open
+608,model4_83,comp1,2,Mechanical,Severe spindle instability detected on aging equipment,High,3.29,pressure,0.55,1.69,1.92,Lubrication degradation,Check valve stability,Open
+609,model4_83,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.24,pressure,0.91,1.87,0.4,Hydraulic flow instability,Inspect hydraulic pressure lines,Open
+610,model3_84,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.71,rotation,0.9,0.96,1.19,Hydraulic flow instability,Inspect rotational control subsystem,Open
+611,model3_84,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.86,vibration,0.54,0.54,0.38,Hydraulic flow instability,Verify shaft balancing and alignment,Open
+612,model3_84,comp1,1,Mechanical,Low-level spindle oscillation identified,Low,0.95,vibration,0.77,0.16,0.89,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+613,model3_84,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.94,vibration,1.12,0.42,0.73,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+614,model3_84,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.74,rotation,0.88,0.91,1.1,Bearing wear,Inspect rotational control subsystem,Open
+615,model3_84,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.84,vibration,1.1,0.83,0.26,Pressure leakage,Verify shaft balancing and alignment,Open
+616,model3_84,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.69,vibration,1.31,0.39,0.54,Lubrication degradation,Verify shaft balancing and alignment,Open
+617,model1_85,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,2.3,rotation,0.53,0.94,1.57,Pressure leakage,Verify rotational sensor consistency,Open
+618,model1_85,comp3,1,Thermal,Moderate thermal instability observed,Medium,1.33,vibration,0.25,0.16,0.44,Thermal overload,Check rotational stability,Open
+619,model1_85,comp4,2,Automation,Critical PLC instability trend identified on aging equipment,High,3.43,vibration,1.82,0.94,1.89,PLC communication instability,Check rotational stability,Open
+620,model1_85,comp3,1,Thermal,Motor temperature anomaly detected,Medium,1.28,vibration,0.98,0.57,0.8,Cooling fan malfunction,Check rotational stability,Open
+621,model1_85,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,2.29,vibration,1.95,0.98,0.32,Lubrication degradation,Verify shaft balancing and alignment,Open
+622,model1_85,comp4,3,Automation,Industrial control synchronization instability observed on aging equipment,High,3.8,vibration,2.27,0.41,0.17,Control signal degradation,Check rotational stability,Open
+623,model1_85,comp3,3,Thermal,Critical-range temperature fluctuation observed on aging equipment,High,3.84,pressure,0.32,2.33,0.21,Cooling system degradation,Inspect hydraulic pressure lines,Open
+624,model1_85,comp2,3,Hydraulic,Severe hydraulic fluctuation identified on aging equipment,High,3.59,pressure,0.3,2.02,0.25,Hydraulic valve degradation,Inspect hydraulic pressure lines,Open
+625,model1_85,comp2,3,Hydraulic,Emergency hydraulic instability identified on aging equipment,Critical,7.08,vibration,2.12,2.25,1.69,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+626,model1_85,comp3,1,Thermal,Moderate thermal instability observed,Medium,1.29,vibration,0.76,0.58,0.4,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+627,model1_85,comp4,2,Automation,Automation system anomaly detected,Medium,2.19,vibration,1.17,0.06,0.73,Electrical synchronization issue,Inspect spindle bearing and lubrication system,Open
+628,model3_86,comp1,1,Mechanical,Slight rotational instability detected,Low,0.74,vibration,0.92,0.26,0.88,Lubrication degradation,Verify shaft balancing and alignment,Open
+629,model3_86,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.69,vibration,0.57,0.63,0.48,Pressure leakage,Verify shaft balancing and alignment,Open
+630,model3_86,comp1,2,Mechanical,Severe spindle instability detected,High,2.9,pressure,0.21,1.8,1.82,Lubrication degradation,Inspect hydraulic pressure lines,Open
+631,model3_86,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,1.85,vibration,1.69,0.91,0.98,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+632,model2_87,comp1,2,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.8,pressure,0.53,1.42,0.29,Mechanical imbalance,Verify hydraulic pump condition,Open
+633,model2_87,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.87,vibration,1.22,0.53,0.84,Thermal overload,Verify shaft balancing and alignment,Open
+634,model2_87,comp1,4,Mechanical,Emergency-level spindle instability identified,Critical,4.73,pressure,1.44,2.84,0.27,Lubrication degradation,Inspect hydraulic pressure lines,Open
+635,model2_87,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.75,vibration,0.0,0.38,0.59,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+636,model2_87,comp3,2,Thermal,Elevated thermal instability detected,High,2.77,vibration,1.94,1.65,0.37,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+637,model2_87,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.85,rotation,0.36,0.18,1.55,Lubrication degradation,Check rotational synchronization,Open
+638,model2_87,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.87,vibration,0.31,0.47,0.57,Thermal overload,Check rotational stability,Open
+639,model2_87,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.84,pressure,0.4,1.11,0.81,Thermal overload,Inspect hydraulic pressure lines,Open
+640,model2_87,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.92,vibration,1.5,0.67,0.53,Thermal overload,Verify shaft balancing and alignment,Open
+641,model4_88,comp4,2,Automation,PLC communication instability observed,Medium,1.66,vibration,1.21,0.23,0.55,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+642,model4_88,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.91,vibration,0.05,0.85,1.0,Pressure leakage,Check rotational stability,Open
+643,model4_88,comp2,3,Hydraulic,Emergency hydraulic instability identified,Critical,4.09,vibration,2.13,1.29,0.16,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+644,model4_88,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.93,vibration,0.58,0.77,0.37,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+645,model4_88,comp1,3,Mechanical,Severe mechanical instability observed,Critical,4.13,rotation,0.99,1.23,2.45,Bearing wear,Check rotational synchronization,Open
+646,model4_88,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.93,vibration,0.49,0.08,0.94,Hydraulic flow instability,Check rotational stability,Open
+647,model4_88,comp4,2,Automation,Automation system anomaly detected,Medium,1.8,rotation,0.71,0.25,1.7,Control signal degradation,Inspect rotational control subsystem,Open
+648,model4_88,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.67,vibration,0.45,0.33,0.7,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+649,model4_88,comp4,2,Automation,Critical PLC instability trend identified,High,2.92,pressure,0.76,1.43,1.08,PLC communication instability,Check valve stability,Open
+650,model4_88,comp1,2,Mechanical,Strong rotational imbalance observed,High,2.97,vibration,1.02,0.46,1.83,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+651,model3_89,comp1,1,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.25,vibration,0.64,0.23,0.64,Lubrication degradation,Verify shaft balancing and alignment,Open
+652,model3_89,comp4,3,Automation,Emergency automation system instability identified on aging equipment,Critical,6.21,rotation,1.63,2.0,2.27,Control signal degradation,Check rotational synchronization,Open
+653,model3_89,comp4,2,Automation,PLC communication instability observed,Medium,2.33,pressure,0.13,1.39,0.83,Control signal degradation,Inspect hydraulic pressure lines,Open
+654,model3_89,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,2.38,rotation,0.51,0.38,1.02,Mechanical imbalance,Verify rotational sensor consistency,Open
+655,model3_89,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.21,vibration,1.07,0.09,0.25,Hydraulic flow instability,Check rotational stability,Open
+656,model3_89,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.3,rotation,0.77,0.09,1.67,Pressure leakage,Check rotational synchronization,Open
+657,model3_89,comp2,1,Hydraulic,Moderate hydraulic instability observed,Medium,1.21,vibration,0.05,0.51,0.84,Hydraulic valve degradation,Check rotational stability,Open
+658,model2_90,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.82,rotation,0.73,0.38,1.32,Hydraulic valve degradation,Check rotational synchronization,Open
+659,model2_90,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.86,vibration,0.51,0.36,0.45,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+660,model2_90,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.76,vibration,1.6,0.11,0.33,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+661,model2_90,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.66,vibration,0.97,0.89,0.86,Bearing wear,Check rotational stability,Open
+662,model2_90,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.81,rotation,0.25,0.57,1.2,Pressure leakage,Check rotational synchronization,Open
+663,model2_90,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.66,vibration,0.89,0.23,0.44,Cooling system degradation,Check rotational stability,Open
+664,model2_90,comp1,2,Mechanical,Severe spindle instability detected,High,2.66,vibration,1.71,1.35,0.11,Mechanical imbalance,Verify shaft balancing and alignment,Open
+665,model2_90,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.66,rotation,0.54,0.63,1.14,Thermal overload,Verify rotational sensor consistency,Open
+666,model2_90,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.92,rotation,0.16,0.07,1.03,Mechanical imbalance,Inspect rotational control subsystem,Open
+667,model2_90,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.66,vibration,0.5,0.63,0.49,Thermal overload,Inspect spindle bearing and lubrication system,Open
+668,model2_90,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.66,vibration,0.44,0.09,0.1,Pressure leakage,Check rotational stability,Open
+669,model2_90,comp1,4,Mechanical,Severe mechanical instability observed,Critical,4.81,vibration,2.79,0.71,1.36,Mechanical imbalance,Verify shaft balancing and alignment,Open
+670,model4_91,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,2.32,rotation,0.6,0.93,1.08,Hydraulic flow instability,Inspect rotational control subsystem,Open
+671,model4_91,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,2.25,vibration,1.17,0.26,0.88,Bearing wear,Inspect spindle bearing and lubrication system,Open
+672,model4_91,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,2.21,rotation,0.48,0.04,1.67,Lubrication degradation,Verify rotational sensor consistency,Open
+673,model4_91,comp2,2,Hydraulic,Severe hydraulic fluctuation identified on aging equipment,High,3.37,pressure,0.77,1.35,1.03,Hydraulic flow instability,Check valve stability,Open
+674,model4_91,comp1,2,Mechanical,Moderate spindle vibration anomaly detected,Medium,2.31,pressure,0.14,1.24,0.66,Bearing wear,Check valve stability,Open
+675,model4_91,comp4,3,Automation,Industrial control synchronization instability observed on aging equipment,High,3.64,pressure,0.07,2.37,0.2,PLC communication instability,Verify hydraulic pump condition,Open
+676,model1_92,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.73,vibration,0.47,0.52,0.35,Thermal overload,Inspect spindle bearing and lubrication system,Open
+677,model1_92,comp1,2,Mechanical,Strong rotational imbalance observed,High,2.82,vibration,1.87,1.42,0.21,Lubrication degradation,Check rotational stability,Open
+678,model1_92,comp2,3,Hydraulic,Critical hydraulic pressure instability detected,Critical,5.85,vibration,2.03,1.16,1.76,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+679,model1_92,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.81,pressure,0.39,1.75,0.63,Cooling system degradation,Verify hydraulic pump condition,Open
+680,model1_92,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.85,vibration,0.45,0.04,0.87,Thermal overload,Verify shaft balancing and alignment,Open
+681,model1_92,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.74,pressure,0.13,1.25,0.7,Thermal overload,Check valve stability,Open
+682,model1_92,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.8,rotation,0.97,0.24,1.21,Hydraulic valve degradation,Inspect rotational control subsystem,Open
+683,model1_92,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.91,vibration,1.15,0.74,0.1,Hydraulic valve degradation,Verify shaft balancing and alignment,Open
+684,model1_92,comp3,2,Thermal,High thermal stress identified,High,3.01,vibration,1.19,0.12,1.08,Cooling fan malfunction,Check rotational stability,Open
+685,model3_93,comp4,2,Automation,PLC communication instability observed,Medium,2.19,rotation,0.85,0.48,1.95,Electrical synchronization issue,Check rotational synchronization,Open
+686,model3_93,comp2,2,Hydraulic,Hydraulic pressure anomaly detected,Medium,2.38,rotation,0.06,0.34,1.73,Pressure leakage,Verify rotational sensor consistency,Open
+687,model3_93,comp1,1,Mechanical,Moderate spindle vibration anomaly detected,Medium,1.39,vibration,0.6,0.16,0.41,Bearing wear,Check rotational stability,Open
+688,model3_93,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,2.3,pressure,0.53,1.27,0.04,Hydraulic flow instability,Check valve stability,Open
+689,model3_93,comp4,3,Automation,Emergency automation system instability identified on aging equipment,Critical,6.28,rotation,1.75,1.36,2.03,PLC communication instability,Verify rotational sensor consistency,Open
+690,model3_93,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.36,vibration,0.79,0.61,0.28,Mechanical imbalance,Check rotational stability,Open
+691,model2_94,comp4,1,Automation,Automation system anomaly detected,Medium,1.4,vibration,0.54,0.05,0.36,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+692,model2_94,comp2,1,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.37,vibration,0.09,0.09,0.89,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+693,model2_94,comp4,2,Automation,PLC communication instability observed,Medium,2.31,vibration,1.83,0.14,0.48,Electrical synchronization issue,Check rotational stability,Open
+694,model2_94,comp3,2,Thermal,Critical-range temperature fluctuation observed on aging equipment,High,3.16,pressure,0.22,1.19,1.9,Cooling fan malfunction,Verify hydraulic pump condition,Open
+695,model2_94,comp3,3,Thermal,Emergency thermal instability detected on aging equipment,Critical,4.8,rotation,0.31,1.86,2.31,Thermal overload,Inspect rotational control subsystem,Open
+696,model2_94,comp4,2,Automation,Critical PLC instability trend identified on aging equipment,High,3.44,pressure,0.46,1.61,1.02,Electrical synchronization issue,Check valve stability,Open
+697,model2_94,comp4,2,Automation,Automation system anomaly detected,Medium,2.17,rotation,0.71,0.84,1.99,Electrical synchronization issue,Inspect rotational control subsystem,Open
+698,model2_94,comp3,2,Thermal,Moderate thermal instability observed,Medium,2.29,vibration,1.58,0.28,0.4,Thermal overload,Check rotational stability,Open
+699,model2_94,comp2,1,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.18,vibration,0.67,0.46,0.97,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+700,model2_94,comp4,2,Automation,PLC communication instability observed,Medium,2.43,rotation,0.62,0.03,1.83,Electrical synchronization issue,Check rotational synchronization,Open
+701,model2_94,comp2,2,Hydraulic,Moderate hydraulic instability observed,Medium,2.3,rotation,0.79,0.23,1.57,Pressure leakage,Verify rotational sensor consistency,Open
+702,model2_95,comp4,2,Automation,Automation system anomaly detected,Medium,2.43,vibration,1.22,0.11,0.17,Electrical synchronization issue,Inspect spindle bearing and lubrication system,Open
+703,model2_95,comp2,3,Hydraulic,High hydraulic instability detected on aging equipment,High,3.82,pressure,0.26,2.12,0.31,Hydraulic valve degradation,Verify hydraulic pump condition,Open
+704,model2_95,comp3,1,Thermal,Moderate thermal instability observed,Medium,1.45,vibration,0.04,0.05,0.8,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+705,model2_95,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.38,vibration,0.13,0.85,0.5,Mechanical imbalance,Check rotational stability,Open
+706,model2_95,comp3,2,Thermal,Critical-range temperature fluctuation observed on aging equipment,High,3.21,vibration,1.14,1.56,0.32,Thermal overload,Inspect spindle bearing and lubrication system,Open
+707,model2_95,comp4,1,Automation,PLC communication instability observed,Medium,1.33,vibration,0.53,0.03,0.51,Electrical synchronization issue,Check rotational stability,Open
+708,model2_95,comp3,2,Thermal,Elevated thermal instability detected on aging equipment,High,3.34,vibration,1.03,1.7,0.01,Thermal overload,Inspect spindle bearing and lubrication system,Open
+709,model2_95,comp4,2,Automation,Industrial control synchronization instability observed on aging equipment,High,3.48,vibration,1.07,0.47,1.13,Control signal degradation,Check rotational stability,Open
+710,model2_95,comp1,3,Mechanical,Severe spindle instability detected on aging equipment,High,3.68,vibration,2.53,0.42,0.34,Lubrication degradation,Check rotational stability,Open
+711,model2_96,comp3,2,Thermal,Critical-range temperature fluctuation observed,High,2.93,pressure,0.78,1.3,1.09,Cooling system degradation,Verify hydraulic pump condition,Open
+712,model2_96,comp3,2,Thermal,High thermal stress identified,High,2.81,vibration,1.08,0.19,1.58,Thermal overload,Inspect spindle bearing and lubrication system,Open
+713,model2_96,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.91,vibration,0.45,0.34,0.66,Thermal overload,Verify shaft balancing and alignment,Open
+714,model2_96,comp3,2,Thermal,Critical-range temperature fluctuation observed,High,2.89,vibration,1.27,1.08,0.31,Cooling system degradation,Verify shaft balancing and alignment,Open
+715,model2_96,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.94,vibration,0.61,0.47,0.6,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+716,model2_97,comp3,2,Thermal,Moderate thermal instability observed,Medium,1.9,rotation,0.75,0.17,1.03,Cooling fan malfunction,Inspect rotational control subsystem,Open
+717,model2_97,comp4,2,Automation,PLC communication instability observed,Medium,1.91,rotation,0.53,0.73,1.48,PLC communication instability,Inspect rotational control subsystem,Open
+718,model2_97,comp4,2,Automation,Industrial control synchronization instability observed,High,2.82,vibration,1.53,1.58,0.2,Electrical synchronization issue,Check rotational stability,Open
+719,model2_97,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.93,vibration,1.44,0.47,0.17,Thermal overload,Check rotational stability,Open
+720,model2_97,comp4,2,Automation,PLC communication instability observed,Medium,1.83,vibration,1.17,0.05,0.89,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+721,model2_97,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.82,vibration,0.62,0.85,0.58,Thermal overload,Verify shaft balancing and alignment,Open
+722,model2_97,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.71,vibration,0.14,0.44,0.38,Hydraulic valve degradation,Check rotational stability,Open
+723,model2_97,comp4,1,Automation,Minor automation instability detected,Low,0.74,vibration,0.75,0.73,0.62,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+724,model2_98,comp3,2,Thermal,Moderate thermal instability observed,Medium,2.22,rotation,0.17,0.96,1.31,Thermal overload,Inspect rotational control subsystem,Open
+725,model2_98,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,2.44,rotation,0.65,0.63,1.76,Lubrication degradation,Verify rotational sensor consistency,Open
+726,model2_98,comp4,2,Automation,High-risk automation instability detected on aging equipment,High,3.19,vibration,1.17,1.39,0.5,Electrical synchronization issue,Verify shaft balancing and alignment,Open
+727,model2_98,comp3,2,Thermal,Moderate thermal instability observed,Medium,2.18,pressure,0.66,1.06,0.41,Cooling system degradation,Check valve stability,Open
+728,model2_98,comp2,1,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.44,vibration,0.89,0.37,0.83,Hydraulic valve degradation,Check rotational stability,Open
+729,model2_98,comp4,2,Automation,Severe PLC communication failure observed on aging equipment,Critical,4.87,vibration,1.57,1.52,1.16,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+730,model2_98,comp1,1,Mechanical,Mechanical instability observed during operation,Medium,1.24,vibration,0.53,0.22,0.63,Bearing wear,Check rotational stability,Open
+731,model2_98,comp3,3,Thermal,High thermal stress identified on aging equipment,High,3.57,rotation,0.29,0.93,2.24,Thermal overload,Inspect rotational control subsystem,Open
+732,model2_98,comp2,1,Hydraulic,Hydraulic pressure anomaly detected,Medium,1.44,vibration,0.9,0.68,0.33,Pressure leakage,Check rotational stability,Open
+733,model2_98,comp1,2,Mechanical,Mechanical instability observed during operation,Medium,2.35,rotation,0.08,0.32,1.03,Lubrication degradation,Inspect rotational control subsystem,Open
+734,model2_98,comp4,2,Automation,PLC communication instability observed,Medium,2.4,rotation,0.46,0.45,1.93,PLC communication instability,Check rotational synchronization,Open
+735,model2_98,comp3,2,Thermal,Motor temperature anomaly detected,Medium,2.25,pressure,0.47,1.21,0.93,Cooling system degradation,Check valve stability,Open
+736,model2_98,comp1,1,Mechanical,Spindle oscillation exceeded operational baseline,Medium,1.33,vibration,0.55,0.05,0.67,Lubrication degradation,Inspect spindle bearing and lubrication system,Open
+737,model2_98,comp2,3,Hydraulic,High hydraulic instability detected on aging equipment,High,3.62,vibration,2.53,0.16,0.37,Hydraulic valve degradation,Inspect spindle bearing and lubrication system,Open
+738,model2_98,comp2,2,Hydraulic,Severe hydraulic fluctuation identified on aging equipment,High,3.3,pressure,0.58,1.53,1.34,Pressure leakage,Check valve stability,Open
+739,model2_98,comp3,2,Thermal,High thermal stress identified on aging equipment,High,3.47,vibration,1.95,0.84,1.65,Cooling fan malfunction,Inspect spindle bearing and lubrication system,Open
+740,model1_99,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.68,vibration,1.19,0.02,0.1,Thermal overload,Inspect spindle bearing and lubrication system,Open
+741,model1_99,comp4,2,Automation,PLC communication instability observed,Medium,1.72,rotation,0.06,0.34,1.04,Control signal degradation,Inspect rotational control subsystem,Open
+742,model1_99,comp1,1,Mechanical,Minor spindle vibration deviation observed,Low,0.66,vibration,0.78,0.02,0.89,Mechanical imbalance,Inspect spindle bearing and lubrication system,Open
+743,model1_99,comp2,2,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,2.91,pressure,0.41,1.72,1.08,Pressure leakage,Check valve stability,Open
+744,model1_99,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.94,vibration,0.12,0.86,0.14,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+745,model1_99,comp4,1,Automation,Minor automation instability detected,Low,0.83,vibration,0.16,0.97,0.35,Control signal degradation,Verify shaft balancing and alignment,Open
+746,model1_99,comp2,2,Hydraulic,Hydraulic pressure exceeded safe operational profile,High,2.96,vibration,1.51,0.27,1.47,Pressure leakage,Inspect spindle bearing and lubrication system,Open
+747,model1_99,comp3,1,Thermal,Minor thermal deviation detected on motor unit,Low,0.87,vibration,0.23,0.78,0.18,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+748,model1_99,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.82,vibration,0.3,0.43,0.5,Hydraulic flow instability,Inspect spindle bearing and lubrication system,Open
+749,model1_99,comp1,2,Mechanical,Strong rotational imbalance observed,High,2.8,pressure,0.45,1.59,1.74,Bearing wear,Check valve stability,Open
+750,model1_99,comp4,2,Automation,High-risk automation instability detected,High,2.91,pressure,0.58,1.02,1.54,PLC communication instability,Verify hydraulic pump condition,Open
+751,model1_99,comp2,1,Hydraulic,Minor hydraulic pressure fluctuation observed,Low,0.71,vibration,0.66,0.44,0.49,Hydraulic valve degradation,Check rotational stability,Open
+752,model1_99,comp3,3,Thermal,Critical-range temperature fluctuation observed,High,3.15,vibration,2.01,0.05,0.75,Cooling fan malfunction,Verify shaft balancing and alignment,Open
+753,model1_99,comp2,2,Hydraulic,Unstable hydraulic behavior identified during operation,Medium,1.82,rotation,0.74,0.61,1.03,Hydraulic flow instability,Check rotational synchronization,Open
+754,model1_99,comp3,2,Thermal,Motor temperature anomaly detected,Medium,1.94,rotation,0.35,0.52,1.2,Cooling system degradation,Verify rotational sensor consistency,Open
+755,model1_99,comp2,1,Hydraulic,Slight hydraulic instability detected,Low,0.79,vibration,0.74,0.02,0.97,Hydraulic flow instability,Check rotational stability,Open
+756,model1_99,comp4,2,Automation,High-risk automation instability detected,High,2.69,vibration,1.04,1.06,0.28,PLC communication instability,Inspect spindle bearing and lubrication system,Open
+757,model1_99,comp3,2,Thermal,High thermal stress identified,High,2.71,vibration,1.05,1.63,0.28,Thermal overload,Check rotational stability,Open
+758,model1_99,comp4,2,Automation,Critical PLC instability trend identified,High,2.68,pressure,0.38,1.06,1.17,PLC communication instability,Verify hydraulic pump condition,Open
+759,model4_100,comp1,2,Mechanical,High spindle vibration level identified,High,2.66,pressure,0.38,1.14,1.09,Mechanical imbalance,Inspect hydraulic pressure lines,Open
+760,model4_100,comp1,4,Mechanical,Emergency-level spindle instability identified,Critical,4.9,rotation,1.13,0.51,2.97,Lubrication degradation,Inspect rotational control subsystem,Open
+761,model4_100,comp2,2,Hydraulic,Hydraulic pressure fluctuation exceeded operational tolerance,Medium,1.88,pressure,0.03,1.56,0.41,Hydraulic valve degradation,Check valve stability,Open
