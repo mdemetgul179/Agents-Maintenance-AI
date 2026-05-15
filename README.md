@@ -175,6 +175,18 @@ Maintenance Recommendation
 
 ## Dataset
 
+### Microsoft Predictive Maintenance Dataset
+
+This project utilizes the Microsoft Azure Predictive Maintenance dataset as the industrial machine foundation dataset.
+
+Official dataset page:
+
+- [Microsoft Azure Predictive Maintenance Dataset](https://learn.microsoft.com/en-us/azure/ai-services/?utm_source=chatgpt.com)
+
+Kaggle mirror:
+
+- [Kaggle Predictive Maintenance Dataset](https://www.kaggle.com/datasets/arnabbiswas1/microsoft-azure-predictive-maintenance?utm_source=chatgpt.com)
+
 The project uses:
 
 * AI-generated industrial maintenance tickets
